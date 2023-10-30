@@ -115,7 +115,6 @@ class bot_twitter():
         self.search_keyword = keyword
         self.driver.get('https://twitter.com/search?q='+ self.search_keyword +'&src=typed_query')
 
-    @time_out(time_out=10, raise_exception=False)
     def getting_information(self, n_posts=20):
         """
         Informações importantes para o desenvolvimento do código:
@@ -123,7 +122,7 @@ class bot_twitter():
         """
 
         self.post_links = list()
-        n_scroll = int
+        n_scroll = 0
 
         script = f""" 
                     var results = document.getElementsByClassName('css-4rbku5 css-18t94o4 css-901oao r-1bwzh9t r-1loqt21 r-xoduu5 r-1q142lx r-1w6e6rj r-37j5jr r-a023e6 r-16dba41 r-9aw3ui r-rjixqe r-bcqeeo r-3s2u2q r-qvutc0')
@@ -131,7 +130,7 @@ class bot_twitter():
                   """
         
         elements = self.driver.execute_script(script)
-        elements = elements[:n_posts]
+    
         while True:
             for element in elements:
                 try:
@@ -145,8 +144,10 @@ class bot_twitter():
 
                 if href not in self.post_links:
                     self.post_links.append(href)
+            
+            self.driver.execute_script("window.scrollBy(0,1150)")
 
-            if self.post_links >= n_posts or n_scroll > 50:
+            if len(self.post_links) >= n_posts or n_scroll > 50:
                 break
 
             else:
@@ -248,7 +249,7 @@ class bot_twitter():
 
     def main(self, keyword):
         bot.login_twitter()
-        sleep(10)
+        sleep(5)
         bot.search_keyword(keyword)
         bot.getting_information()
         # bot.take_screenshot()

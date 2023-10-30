@@ -785,3 +785,220 @@ _/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-lega
 
 1698682333262	Marionette	INFO	Stopped listening on port 56698
 Dynamically enable window occlusion 1
+1698687292772	geckodriver	INFO	Listening on 127.0.0.1:50209
+1698687295877	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50210" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile2DbUff"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698687296258	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698687296351	Marionette	INFO	Listening on port 50220
+WebDriver BiDi listening on ws://127.0.0.1:50210
+Read port: 50220
+1698687296534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50210/devtools/browser/4db0e1fc-601f-4bca-a0cf-f1717a8348c2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698687326293	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js, line 74: Script terminated by timeout at:
+j@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:211761
+$@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:213180
+
+1698687453412	Marionette	INFO	Stopped listening on port 50220
+Dynamically enable window occlusion 1
+ server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698687446050	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698687446131	Marionette	INFO	Listening on port 50333
+WebDriver BiDi listening on ws://127.0.0.1:50325
+Read port: 50333
+1698687446296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50325/devtools/browser/6e578f20-5054-4a0b-b697-40324fdf1387
+1698687476085	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.87fcda4a.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.87fcda4a.js:1:2714891
+
+1698687722557	Marionette	INFO	Stopped listening on port 50333
+Dynamically enable window occlusion 1
+1698687726083	geckodriver	INFO	Listening on 127.0.0.1:50459
+1698687729163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilelGZ0qs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698687729447	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698687729521	Marionette	INFO	Listening on port 50469
+WebDriver BiDi listening on ws://127.0.0.1:50460
+Read port: 50469
+1698687729665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50460/devtools/browser/2e8ca85a-0884-4b89-9366-c93dfba484b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698687759465	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js, line 74: Script terminated by timeout at:
+o@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:180911
+_/Pe/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:180512
+
+1698688097228	Marionette	INFO	Stopped listening on port 50469
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+TOOLS=1 in the environment
+1698687804635	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698687804705	Marionette	INFO	Listening on port 50563
+WebDriver BiDi listening on ws://127.0.0.1:50554
+Read port: 50563
+1698687804848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50554/devtools/browser/a6a8a2d7-a05b-4d38-b2a5-7c54cbfc5629
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698687834654	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698688096266	Marionette	INFO	Stopped listening on port 50563
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50652" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilePWHfTZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698687899884	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698687899994	Marionette	INFO	Listening on port 50661
+WebDriver BiDi listening on ws://127.0.0.1:50652
+Read port: 50661
+1698687900188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50652/devtools/browser/57792998-60a6-4f55-bd89-fe33b24ba9d2
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_908728_149152&as=KNmZngkQPRKXW8VP2KZCCA&hl=pt, line 125: Script terminated by timeout at:
+_.H<@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:125:1196
+_.M@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:127:209
+yi@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:189:286
+xi@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:189:452
+zi@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:190:28
+vi@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:189:242
+pi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:186:66
+pi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:180:288
+oc@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:55:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:52:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698687929907	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.87fcda4a.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.87fcda4a.js:1:2714784
+
+1698688105084	Marionette	INFO	Stopped listening on port 50661
+Dynamically enable window occlusion 1
+1698688132344	geckodriver	INFO	Listening on 127.0.0.1:50781
+1698688135401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50782" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileItjuHf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698688135699	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698688135775	Marionette	INFO	Listening on port 50790
+WebDriver BiDi listening on ws://127.0.0.1:50782
+Read port: 50790
+1698688135929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50782/devtools/browser/336ffb8f-0619-417d-aead-16eb02db93ef
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_144753_883360&as=wkQklL3y9g%2FaZcj3BhGUCg&hl=pt, line 158: Script terminated by timeout at:
+_.dh@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:158:32
+wi@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:187:201
+ti@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:187:22
+pi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:186:101
+pi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:180:288
+oc@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:55:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.YB0jjjMbLCo.O/am=AFAg/d=1/rs=AF0KOtXvgrQ1_ENDPmuEg3UP8gld2VpI0g/m=credential_button_library:52:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698688165718	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js, line 74: Script terminated by timeout at:
+Gu@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:115450
+As@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:100033
+Ts@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:99959
+xs@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:99817
+ys@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:96744
+_/Ki/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45662
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.87fcda4a.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45436
+Ki@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45610
+Gi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45542
+ps@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:94106
+enqueueSetState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:49575
+_/g.prototype.setState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:98:1386
+_/r/e._handlePlayerApi/S/e._unsubscribe<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.5aa47daa.js:1:2240
+_/e/this.subscribe/a<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99999
+m@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:98:10036
+_/n/</</<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:98:8263
+_/t.default/</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:2204
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:91010
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89492
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89235
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87602
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87227
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86935
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86708
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86341
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:102470
+_/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99230
+
+1698688598006	Marionette	INFO	Stopped listening on port 50790
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89492
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89235
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87602
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87227
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86935
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86708
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86341
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:102470
+_/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99230
+
+1698688596070	Marionette	INFO	Stopped listening on port 50930
+Dynamically enable window occlusion 1
+1698688672873	geckodriver	INFO	Listening on 127.0.0.1:51057
+1698688675942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51058" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilenh5Slr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698688676329	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698688676415	Marionette	INFO	Listening on port 51065
+WebDriver BiDi listening on ws://127.0.0.1:51058
+Read port: 51065
+1698688676588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51058/devtools/browser/5b453d99-59e7-4d49-944f-d97c527b6427
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698688706341	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js, line 74: Script terminated by timeout at:
+e@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:220112
+ve@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:175903
+_/s/d.style<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:183628
+s@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:183638
+resolve@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:184440
+g@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:200165
+o@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:192838
+c@https://abs.twimg.com/responsive-web/client-web-legacy/main.87fcda4a.js:1:2600477
+ao@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:60031
+Bo@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:69872
+Gu@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:113851
+As@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:100033
+Ts@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:99959
+xs@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:99817
+ys@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:96744
+_/Ki/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45662
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.87fcda4a.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45436
+Ki@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45610
+Gi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:45542
+ps@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:94106
+enqueueSetState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:74:49575
+_/g.prototype.setState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:98:1386
+_/r/e._handlePlayerApi/S/e._unsubscribe<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.5aa47daa.js:1:2240
+_/e/this.subscribe/a<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99999
+m@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:98:10036
+_/n/</</<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js:98:8263
+_/t.default/</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:2204
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:91010
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89492
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89235
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87602
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87227
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86935
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86708
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86341
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:102470
+_/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99230
+
+1698689703771	Marionette	INFO	Stopped listening on port 51065
+Dynamically enable window occlusion 1
