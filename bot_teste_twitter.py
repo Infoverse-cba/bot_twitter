@@ -85,27 +85,35 @@ class bot_twitter():
         self.driver.maximize_window()
 
         WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input"))).click()
+        sleep(1)
         self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input').send_keys(self.cred_login)
+        sleep(2)
         self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div').click()
 
         try:
             WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input"))).click()
+            sleep(1)
             self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input').send_keys(self.cred_usuario)
+            sleep(2)
             self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div').click()
 
         except:
             pass
 
         WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input"))).click()
+        sleep(3)
         self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input').send_keys(self.cred_senha)
+        sleep(2)
         self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div/div').click()
 
         self.driver.implicitly_wait(10)
+        sleep(10)
 
     @time_out(time_out=10, raise_exception=True)
-    def search_keyword(self):
-        sleep(4)
-        self.driver.get('https://www.facebook.com/search/posts?q='+self.keyword)
+    def search_keyword(self, keyword):
+        sleep(2)
+        self.search_keyword = keyword
+        self.driver.get('https://twitter.com/search?q='+ self.search_keyword +'&src=typed_query')
 
     @time_out(time_out=10, raise_exception=False)
     def getting_information(self, n_posts=20):
@@ -115,63 +123,37 @@ class bot_twitter():
         """
 
         self.post_links = list()
-        sleep(10)
-        n_scroll = 0
-
-        while True:
-            script_n_posts = f""" 
-                                var n_posts = document.getElementsByClassName('x1yztbdb x1n2onr6 xh8yej3 x1ja2u2z').length
-                                return n_posts
-                              """
-            
-            n_posts_browser = self.driver.execute_script(script_n_posts)
-            print('n_posts_browser: ', n_posts_browser)
-
-            if n_posts_browser >= n_posts:
-                break
-
-            elif n_scroll > 50:
-                print(f"foram encontrados o total de {n_posts_browser} posts de {n_posts}")
-                break
-
-            else:
-                n_scroll += 1
-                self.driver.execute_script("window.scrollBy(0,6150)")
-                sleep(1)
-
-        print('n_scroll: ', n_scroll)
-
-        self.driver.execute_script("window.scrollBy(0,6150)")
+        n_scroll = int
 
         script = f""" 
-                    var results = document.getElementsByClassName('x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g xt0b8zv xo1l8bm')
+                    var results = document.getElementsByClassName('css-4rbku5 css-18t94o4 css-901oao r-1bwzh9t r-1loqt21 r-xoduu5 r-1q142lx r-1w6e6rj r-37j5jr r-a023e6 r-16dba41 r-9aw3ui r-rjixqe r-bcqeeo r-3s2u2q r-qvutc0')
                     return results
                   """
         
-        self.driver.execute_script("window.scrollBy(0,-"+ str(n_scroll*6150) +")")
-
         elements = self.driver.execute_script(script)
         elements = elements[:n_posts]
-
-        for element in elements:
-            try:
-                href = element.get_attribute('href')
-                if '#' in href:
-                    element.click()
+        while True:
+            for element in elements:
+                try:
                     href = element.get_attribute('href')
-                else: continue
-                
-            except:
-                self.driver.execute_script("window.scrollBy(0,1150)")
-                sleep(1)
-                element.click()
-                sleep(1)
-                href = element.get_attribute('href')
+                    
+                except:
+                    self.driver.execute_script("window.scrollBy(0,1150)")
+                    n_scroll += 1
+                    sleep(2)
+                    continue
 
-            if href not in self.post_links:
-                self.post_links.append(href)
+                if href not in self.post_links:
+                    self.post_links.append(href)
 
-        print('numero de self.post_links: ', len(self.post_links))
+            if self.post_links >= n_posts or n_scroll > 50:
+                break
+
+            else:
+                elements = self.driver.execute_script(script)
+
+        for link in self.post_links:
+            print(link)
         
     @time_out(time_out=10, raise_exception=False)
     def take_screenshot(self, publication_links):
@@ -266,8 +248,9 @@ class bot_twitter():
 
     def main(self, keyword):
         bot.login_twitter()
-        # bot.search_keyword()
-        # bot.getting_information()
+        sleep(10)
+        bot.search_keyword(keyword)
+        bot.getting_information()
         # bot.take_screenshot()
         # bot.inserir_db()
         
