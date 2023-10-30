@@ -153,9 +153,6 @@ class bot_twitter():
             else:
                 elements = self.driver.execute_script(script)
 
-        for link in self.post_links:
-            print(link)
-        
     @time_out(time_out=10, raise_exception=False)
     def take_screenshot(self, publication_links):
         for i,link in enumerate(publication_links):
