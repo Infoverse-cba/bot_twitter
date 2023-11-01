@@ -23,8 +23,8 @@ class bot_twitter():
         options = webdriver.FirefoxOptions()
         options.add_argument("-headless")
 
-        # self.driver = webdriver.Firefox(options=options)
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Firefox(options=options)
+        # self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
         sleep(3)
