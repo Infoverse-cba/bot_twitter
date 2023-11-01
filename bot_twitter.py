@@ -23,7 +23,8 @@ class bot_twitter():
         options = webdriver.FirefoxOptions()
         options.add_argument("-headless")
 
-        self.driver = webdriver.Firefox(options=options)
+        # self.driver = webdriver.Firefox(options=options)
+        self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -79,7 +80,7 @@ class bot_twitter():
         return wrapper
 
     def login_twitter(self):
-        # self.cred_senha = 'Master@rbb@'
+        print('fazendo login no twitter')
         # self.cred_login = 'rogerio@rbbtrade.com'
         # self.cred_usuario = 'RBB1975249'
 
@@ -113,6 +114,7 @@ class bot_twitter():
 
     @time_out(time_out=10, raise_exception=True)
     def search_keyword(self, keyword):
+        print('pesquisando palavra chave')
         sleep(2)
         self.search_keyword = keyword
         self.driver.get('https://twitter.com/search?q='+ self.search_keyword +'&src=typed_query')
@@ -122,7 +124,7 @@ class bot_twitter():
         Informações importantes para o desenvolvimento do código:
         class do usuario do post, tempo de publicação ou anuncio: x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h
         """
-
+        print('extraindo infomações...')
         self.post_links = list()
         n_scroll = 0
 
@@ -160,6 +162,7 @@ class bot_twitter():
                 elements = self.driver.execute_script(script)
 
     def get_information(self):
+        print('extraindo informações...')
         data_temp = list()
         data = list()
         i = 1
@@ -323,6 +326,7 @@ def verificando_busca_avulsa():
         set_status_pesquisa_avulsa(id)
 
 def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword, filtro, cred_usuario, cred_login, cred_senha):
+    print('executando busca')
     bot = bot_twitter(cred_login, cred_usuario, cred_senha)
     # bot.main(keyword)
     bot.login_twitter()
@@ -337,6 +341,7 @@ def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword
     inserir_db(data, post_links, id)
         
 def inserir_db(data, post_links, id_pesquisa_avulsa):
+    print('Inserindo no banco de dados')
 
     for i,link in enumerate(post_links):
         try:
@@ -405,10 +410,14 @@ def inserir_db(data, post_links, id_pesquisa_avulsa):
 
                     return 1
                 
+                print(f'imagem {i} inserida com sucesso')
+                
         except Exception as e:
             print('Erro na insersão de dados')
             print(e)
             raise(e)
+        
+    print('Dados inseridos com sucesso!!')
 
    
 

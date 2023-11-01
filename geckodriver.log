@@ -2674,3 +2674,45 @@ JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/shared~
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js, line 1: TypeError: can't access dead object
 Dynamically enable window occlusion 1
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1698870586208	geckodriver	INFO	Listening on 127.0.0.1:55664
+1698870589241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55665" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileJOq5D4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698870589576	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698870589671	Marionette	INFO	Listening on port 55672
+WebDriver BiDi listening on ws://127.0.0.1:55665
+Read port: 55672
+1698870589856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55665/devtools/browser/41585252-ea0a-4f21-a858-4b3daa1ed964
+1698870619615	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698870785267	Marionette	INFO	Stopped listening on port 55672
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/loader.TimelineRenderer.48f621aa.js, line 1: Script terminated by timeout at:
+value@https://abs.twimg.com/responsive-web/client-web-legacy/loader.TimelineRenderer.48f621aa.js:1:34785
+v@https://abs.twimg.com/responsive-web/client-web-legacy/loader.TimelineRenderer.48f621aa.js:1:27961
+_/n/h._scheduleNewEntriesScribing</t<@https://abs.twimg.com/responsive-web/client-web-legacy/loader.TimelineRenderer.48f621aa.js:1:28194
+
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1698871027118	geckodriver	INFO	Listening on 127.0.0.1:55943
+1698871058544	geckodriver	INFO	Listening on 127.0.0.1:55963
+1698871061572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55964" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileuDUpwD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698871061927	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698871062026	Marionette	INFO	Listening on port 55972
+WebDriver BiDi listening on ws://127.0.0.1:55964
+Read port: 55972
+1698871062217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55964/devtools/browser/5fcc4e31-d0c2-4d9e-848d-f2c93b60a1c3
+1698871091936	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698871232459	Marionette	INFO	Stopped listening on port 55972
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.5b1d2d2a.js, line 1: Script terminated by timeout at:
+_/d/e._pollForHoverOut/e._hoverOutPollTimer<@https://abs.twimg.com/responsive-web/client-web-legacy/main.5b1d2d2a.js:1:2684232
+
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
