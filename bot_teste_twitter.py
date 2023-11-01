@@ -11,7 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
-from PIL import Image
 from datetime import datetime
 
 
@@ -20,7 +19,11 @@ class bot_twitter():
         self.cred_usuario = cred_usuario
         self.cred_login = cred_login
         self.cred_senha = cred_senha
-        self.driver = webdriver.Firefox()
+
+        options = webdriver.FirefoxOptions()
+        options.add_argument("-headless")
+
+        self.driver = webdriver.Firefox(options=options)
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -143,10 +146,14 @@ class bot_twitter():
 
                 if href not in self.post_links:
                     self.post_links.append(href)
+
+                else:
+                    n_scroll += 1
+                    
             
             self.driver.execute_script("window.scrollBy(0,1150)")
 
-            if len(self.post_links) >= n_posts or n_scroll > 50:
+            if len(self.post_links) >= n_posts or n_scroll > 150:
                 break
 
             else:
@@ -188,7 +195,6 @@ class bot_twitter():
             except Exception as e:
                 print('erro na hora de extrair informações')
                 print(e)
-                raise(e)
 
         try:
             data_hora_atual = datetime.now()
@@ -203,7 +209,7 @@ class bot_twitter():
             print('erro na hora de criar o dataframe')
             print(e)
 
-        print(dataframe.head())
+        self.driver.quit()
         return dataframe
 
     @time_out(time_out=10, raise_exception=False)
@@ -232,12 +238,12 @@ class bot_twitter():
 
 def remover_letra(string, letra_retirar):
     nova_string = ""
+    
     for letra in string:
         if letra != letra_retirar:
             nova_string += letra
+
     return nova_string
-
-
 
 def conecta_db():
     con = psycopg2.connect(host='db.infoverse.com.br', 
@@ -296,7 +302,6 @@ def verificando_busca_avulsa():
 
     for row in rows:
         id, id_usuario, id_credencial, date_search, status, search_keyword, filtro = row
-        print(row)
 
         row2 = retorna_credencial(id_credencial)
         _, _, cred_login, cred_senha, cred_usuario = row2[0]
@@ -332,13 +337,12 @@ def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword
     inserir_db(data, post_links, id)
         
 def inserir_db(data, post_links, id_pesquisa_avulsa):
-    print(post_links)
 
     for i,link in enumerate(post_links):
         try:
-            publication_id = remover_letra(link, '//')
-            publication_id = remover_letra(link, '/')
-            publication_id = remover_letra(link, ':')
+            publication_id = link
+            publication_id = remover_letra(publication_id, '/')
+            publication_id = remover_letra(publication_id, ':')
 
             replace_str = lambda frase: frase.replace("'", "''")
             data['data_publication'][i] = replace_str(data['data_publication'][i])
@@ -373,8 +377,6 @@ def inserir_db(data, post_links, id_pesquisa_avulsa):
 
 
                     with open('imgs/'+str(i+1)+'.png', 'rb') as file:
-                        print('caminho: ', 'imgs/'+str(i)+'.png')
-                        
                         imagem_bytes = file.read()
 
                     # data_bin = (psycopg2.Binary(imagem_bytes),)
@@ -385,7 +387,6 @@ def inserir_db(data, post_links, id_pesquisa_avulsa):
                             INSERT INTO pesquisa_screenshot_twitter (publication_id, bytea) 
                             VALUES (%s, %s);
                             """
-                    print('data_bin: ',data_img)
 
                     con = conecta_db()
                     cursor = con.cursor()
@@ -416,19 +417,9 @@ if __name__ == '__main__':
     processando = False
     
     while True:
-        
-        # Aguarde 60 segundos
         time.sleep(10)
-
-        # if not processando:
-            # try:
-            #     processando = True
         verificando_busca_avulsa()
-            #     processando = False
-            # except:
-            #     processando = True
-            #     verificando_busca_avulsa()
-            #     processando = False
+            
 
 
 
