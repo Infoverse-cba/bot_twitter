@@ -139,7 +139,7 @@ class bot_twitter():
 
         while True:
             self.driver.save_screenshot('imgs/aux2.png')
-            print(i)
+            print(n_scroll)
             i+=1
             for element in elements:
                 try:
