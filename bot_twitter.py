@@ -125,6 +125,7 @@ class bot_twitter():
         class do usuario do post, tempo de publicação ou anuncio: x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h
         """
         print('extraindo informações...')
+        self.driver.save_screenshot('imgs/aux.png')
         self.post_links = list()
         n_scroll = 0
 
@@ -136,6 +137,7 @@ class bot_twitter():
         elements = self.driver.execute_script(script)
     
         while True:
+            self.driver.save_screenshot('imgs/aux2.png')
             for element in elements:
                 try:
                     href = element.get_attribute('href')
@@ -159,6 +161,7 @@ class bot_twitter():
 
             else:
                 elements = self.driver.execute_script(script)
+        self.driver.save_screenshot('imgs/aux3.png')
 
     def get_information(self):
         print('extraindo informações...')
