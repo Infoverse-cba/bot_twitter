@@ -2,6 +2,7 @@ import psycopg2
 import pandas as pd
 import argparse
 import time
+import logging
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -15,23 +16,16 @@ from datetime import datetime
 
 
 class bot_twitter():
-    def __init__(self):
+    def __init__(self, cred_usuario, cred_login, cred_senha):
+        self.cred_usuario = cred_usuario
+        self.cred_login = cred_login
+        self.cred_senha = cred_senha
         self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
-
         sleep(3)
 
-    def remover_letra(self, string, letra_retirar):
-        nova_string = ""
-        for letra in string:
-            if letra != letra_retirar:
-                nova_string += letra
-        return nova_string
-
     def time_out(void=None, time_out: int = 20, raise_exception: bool = True):
-
-
         """Executes a function with a timeout limit.
 
         :param void: (optional) Default argument, unused.
@@ -59,17 +53,22 @@ class bot_twitter():
                 contadortime_out = 0
                 ret = False
                 error = None
+
                 while contadortime_out < time_out:
                     try:
                         ret = func(*args, **kwargs)
                         break
+
                     except Exception as e:
                         logging.exception(e) # serve para salvar o erro no log
                         error = e
                         time.sleep(1)
+
                     contadortime_out += 1
+
                 if contadortime_out >= time_out and raise_exception:
                     raise error
+                
                 return ret
 
             return inner_wrapper
@@ -77,9 +76,9 @@ class bot_twitter():
         return wrapper
 
     def login_twitter(self):
-        self.cred_senha = 'Master@rbb@'
-        self.cred_login = 'rogerio@rbbtrade.com'
-        self.cred_usuario = 'RBB1975249'
+        # self.cred_senha = 'Master@rbb@'
+        # self.cred_login = 'rogerio@rbbtrade.com'
+        # self.cred_usuario = 'RBB1975249'
 
         self.driver.get('https://twitter.com/i/flow/login')
         self.driver.maximize_window()
@@ -115,7 +114,7 @@ class bot_twitter():
         self.search_keyword = keyword
         self.driver.get('https://twitter.com/search?q='+ self.search_keyword +'&src=typed_query')
 
-    def getting_information(self, n_posts=20):
+    def get_post_links(self, n_posts=20):
         """
         Informações importantes para o desenvolvimento do código:
         class do usuario do post, tempo de publicação ou anuncio: x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h
@@ -153,6 +152,60 @@ class bot_twitter():
             else:
                 elements = self.driver.execute_script(script)
 
+    def get_information(self):
+        data_temp = list()
+        data = list()
+        i = 1
+
+        text_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[3]/div[1]/div/div[1]/span'
+        usuario_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/div/div/a/div/span'
+
+        for link in self.post_links:
+            data_temp = list()
+            try:
+                self.driver.get(link)
+                sleep(2)
+
+                data_temp.append(self.driver.find_element(by=By.XPATH, value=usuario_xpath).text)
+
+                try:
+                    data_temp.append(self.driver.find_element(by=By.XPATH, value=text_xpath).text)
+
+                except:
+                    data_temp.append('')
+
+                data_temp.append("https://twitter.com/" + data_temp[0][1:])
+                data_temp.append(link)
+
+                self.driver.get_screenshot_as_file("imgs/"+str(i)+".png")
+                image = self.driver.get_screenshot_as_png()
+                data_temp.append(image)
+
+                data.append(data_temp)
+                i += 1
+
+
+            except Exception as e:
+                print('erro na hora de extrair informações')
+                print(e)
+                raise(e)
+
+        try:
+            data_hora_atual = datetime.now()
+            data_hora = data_hora_atual.strftime('%m/%d/%Y %H:%M:%S')
+
+            dataframe = pd.DataFrame(data, columns=['usuario', 'data_publication', 'usuario_link', 'publication_link', 'bytea'])
+            dataframe['publication_id'] = [item[-2].split('/')[-1] for item in data]
+            dataframe['search_keyword'] = [self.search_keyword] * len(data)
+            dataframe['date_search'] = [data_hora] * len(data)
+
+        except Exception as e:
+            print('erro na hora de criar o dataframe')
+            print(e)
+
+        print(dataframe.head())
+        return dataframe
+
     @time_out(time_out=10, raise_exception=False)
     def take_screenshot(self, publication_links):
         for i,link in enumerate(publication_links):
@@ -160,109 +213,142 @@ class bot_twitter():
             sleep(2)
             self.driver.save_screenshot('imgs/'+str(i)+'.png')
 
-    def conecta_db(self):
-        con = psycopg2.connect(host='dev.danillodars.com.br', 
-                                database='infoverse',
-                                user='infoverse', 
-                                password=')IU+#8Jf{TM8ec5L{94a[6Z@}rk0R7P$')
-        return con
-        
-    def retorna_pesquisa_avulsa(self):
-        con = self.conecta_db()
-        cursor = con.cursor()
-
-        sql = """SELECT id, id_usuario, id_credencial, data_pesquisa, rede_social, status, palavra_chave, filtro, filtro_avancado, ano_referencia, publicacoes_de, localizacao_marcada
-                FROM pesquisa_avulsa
-                WHERE status IS NULL OR status = False;"""
-        
-        cursor.execute(sql)
-        rows = cursor.fetchall()
-
-        cursor.close()
-        con.close()
-
-        return rows
-    
-    def set_status_pesquisa_avulsa(self, id):
-        con = self.conecta_db()
-        cursor = con.cursor()
-
-        sql3 = """UPDATE pesquisa_avulsa
-                SET status=true
-                WHERE id ="""+ str(id) +""";"""
-        
-        cursor.execute(sql3)
-        con.commit()
-
-        cursor.close()
-        con.close()
-
-    def retorna_credencial(self, credencial_id):
-        con = self.conecta_db()
-        cursor = con.cursor()
-
-        sql3 = """SELECT id, descricao, usuario, senha
-        FROM bot_credencial_facebook WHERE id ="""+ str(credencial_id) +""";"""
-
-        cursor.execute(sql3)
-        row3 = cursor.fetchall()
-
-        cursor = cursor.close()
-        con = con.close()
-
-        return row3
-    
-    def verificando_busca_avulsa(self):
-        rows = self.retorna_pesquisa_avulsa()
-
-        for row in rows:
-            id, id_usuario, id_credencial, date_search, rede_social, status, keyword, filtro, filtro_avancado, ano_referencia, publicacoes_de, localizacao_marcada = row
-
-            row2 = self.retorna_credencial(id_credencial)
-            _, _, cred_usuario, cred_senha = row2[0]
-
-            self.id = id
-            self.id_usuario = id_usuario
-            self.id_credencial = id_credencial
-            self.date_search = date_search
-            self.status = status
-            self.keyword = keyword
-            self.filtro = filtro
-            self.cred_usuario = cred_usuario
-            self.cred_senha = cred_senha
-
-            if len(row) != 0:
-                print('busca encontrada')
-                try:
-                    self.main()
-                except:
-                    self.main()
-
-            else:
-                print('nenhuma busca encontrada')
-                break
-
-            self.set_status_pesquisa_avulsa(id)
+    def get_links(self):
+        return self.post_links
 
     def main(self, keyword):
-        bot.login_twitter()
+        bot = bot_twitter()
+    
+        bot.main('Hamas')
+
+        self.login_twitter()
         sleep(5)
-        bot.search_keyword(keyword)
-        bot.getting_information()
-        # bot.take_screenshot()
-        # bot.inserir_db()
+        self.search_keyword(keyword)
+        self.get_post_link()
+        data = self.get_information()
+    
+        self.inserir_db(data)
+
+
+def remover_letra(string, letra_retirar):
+    nova_string = ""
+    for letra in string:
+        if letra != letra_retirar:
+            nova_string += letra
+    return nova_string
+
+
+
+def conecta_db():
+    con = psycopg2.connect(host='db.infoverse.com.br', 
+                            database='infoverse',
+                            user='infoverse', 
+                            password='fMCTSepyEXpH')
+    return con
+    
+def retorna_pesquisa_avulsa():
+    con = conecta_db()
+    cursor = con.cursor()
+
+    sql = """SELECT id, id_usuario, id_credencial, date_search, status, search_keyword, filtro
+            FROM pesquisa_avulsa_twitter
+            WHERE status IS NULL OR status = False;"""
+    
+    cursor.execute(sql)
+    rows = cursor.fetchall()
+
+    cursor.close()
+    con.close()
+
+    return rows
+
+def set_status_pesquisa_avulsa(id):
+    con = conecta_db()
+    cursor = con.cursor()
+
+    sql3 = """UPDATE pesquisa_avulsa_twitter
+            SET status=true
+            WHERE id ="""+ str(id) +""";"""
+    
+    cursor.execute(sql3)
+    con.commit()
+
+    cursor.close()
+    con.close()
+
+def retorna_credencial(credencial_id):
+    con = conecta_db()
+    cursor = con.cursor()
+
+    sql3 = """SELECT id, descricao, usuario, senha, arroba
+    FROM bot_credencial_twitter WHERE id ="""+ str(credencial_id) +""";"""
+
+    cursor.execute(sql3)
+    row3 = cursor.fetchall()
+
+    cursor = cursor.close()
+    con = con.close()
+
+    return row3
+
+def verificando_busca_avulsa():
+    rows = retorna_pesquisa_avulsa()
+
+    for row in rows:
+        id, id_usuario, id_credencial, date_search, status, search_keyword, filtro = row
+        print(row)
+
+        row2 = retorna_credencial(id_credencial)
+        _, _, cred_login, cred_senha, cred_usuario = row2[0]
+
+
+        if len(row) != 0:
+            print('busca encontrada')
+
+            # try:
+            executando_busca(id, id_usuario, id_credencial, date_search, status, search_keyword, filtro, cred_usuario, cred_login, cred_senha)
+
+            # except:
+            #     executando_busca(id, id_usuario, id_credencial, date_search, status, search_keyword, filtro, cred_usuario, cred_login, cred_senha)
+
+        else:
+            print('nenhuma busca encontrada')
+            break
+
+        set_status_pesquisa_avulsa(id)
+
+def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword, filtro, cred_usuario, cred_login, cred_senha):
+    bot = bot_twitter(cred_login, cred_usuario, cred_senha)
+    # bot.main(keyword)
+    bot.login_twitter()
+
+    sleep(5)
+
+    bot.search_keyword(keyword)
+    bot.get_post_links()
+    post_links = bot.get_links()
+    data = bot.get_information()
+
+    inserir_db(data, post_links, id)
         
-    def inserir_db(self):
-        for i,link in enumerate(self.post_links):
-            publication_id = self.remover_letra(self.link, '/')
-            publication_id = self.remover_letra(self.link, ':')
+def inserir_db(data, post_links, id_pesquisa_avulsa):
+    print(post_links)
+
+    for i,link in enumerate(post_links):
+        try:
+            publication_id = remover_letra(link, '//')
+            publication_id = remover_letra(link, '/')
+            publication_id = remover_letra(link, ':')
+
+            replace_str = lambda frase: frase.replace("'", "''")
+            data['data_publication'][i] = replace_str(data['data_publication'][i])
 
             sql = """
-            INSERT into contigencia (link_publication, publication_id, id_pesquisa_avulsa) 
-            values('%s','%s', '%s');
-            """ % (link, publication_id, self.id)
+            INSERT into pesquisa_bot_twitter (publication_id, usuario, usuario_link, data_publication, publication_link, search_keyword, date_search, id_pesquisa_avulsa) 
+            values('%s','%s', '%s', '%s', '%s', '%s', '%s', '%s' );
+            """ % (publication_id, data['usuario'][i], data['usuario_link'][i], data['data_publication'][i], data['publication_link'][i], data['search_keyword'][i], data['date_search'][i], id_pesquisa_avulsa)
 
-            con = self.conecta_db()
+            con = conecta_db()
             cursor = con.cursor()
 
             cursor.execute("""SELECT publication_id FROM pesquisa_bot_twitter WHERE publication_id = '"""+ str(publication_id) +"""';""")
@@ -276,7 +362,7 @@ class bot_twitter():
 
             if numero_de_linhas == 0:
                 try:
-                    con = self.conecta_db()
+                    con = conecta_db()
                     cursor = con.cursor()
 
                     cursor.execute(sql)
@@ -286,25 +372,25 @@ class bot_twitter():
                     con.close()
 
 
-                    with open('imgs/'+str(i)+'.png', 'rb') as file:
+                    with open('imgs/'+str(i+1)+'.png', 'rb') as file:
                         print('caminho: ', 'imgs/'+str(i)+'.png')
                         
                         imagem_bytes = file.read()
 
                     # data_bin = (psycopg2.Binary(imagem_bytes),)
 
-                    data = (publication_id, psycopg2.Binary(imagem_bytes))
+                    data_img = (publication_id, psycopg2.Binary(imagem_bytes))
 
                     sql2 = """
-                            INSERT INTO pesquisa_screenshot (publication_id, bytea) 
+                            INSERT INTO pesquisa_screenshot_twitter (publication_id, bytea) 
                             VALUES (%s, %s);
                             """
-                    print('data_bin: ',data)
+                    print('data_bin: ',data_img)
 
-                    con = self.conecta_db()
+                    con = conecta_db()
                     cursor = con.cursor()
 
-                    cursor.execute(sql2, data)
+                    cursor.execute(sql2, data_img)
                     con.commit()
 
                     cursor.close()
@@ -317,10 +403,32 @@ class bot_twitter():
                     con.close()
 
                     return 1
+                
+        except Exception as e:
+            print('Erro na insersão de dados')
+            print(e)
+            raise(e)
 
+   
 
 if __name__ == '__main__':
-    bot = bot_twitter()
+    global precessando 
+    processando = False
     
-    bot.main('Hamas')
+    while True:
+        
+        # Aguarde 60 segundos
+        time.sleep(10)
+
+        # if not processando:
+            # try:
+            #     processando = True
+        verificando_busca_avulsa()
+            #     processando = False
+            # except:
+            #     processando = True
+            #     verificando_busca_avulsa()
+            #     processando = False
+
+
 

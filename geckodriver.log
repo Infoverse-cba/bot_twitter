@@ -1002,3 +1002,1603 @@ _/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-lega
 
 1698689703771	Marionette	INFO	Stopped listening on port 51065
 Dynamically enable window occlusion 1
+1698846500216	geckodriver	INFO	Listening on 127.0.0.1:51751
+1698846503341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51752" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile3xh6jn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846503765	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846503885	Marionette	INFO	Listening on port 51762
+Read port: 51762
+WebDriver BiDi listening on ws://127.0.0.1:51752
+1698846503954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51752/devtools/browser/63f9d9ff-7ed7-42af-a950-78f83e67d0e2
+1698846524838	Marionette	INFO	Stopped listening on port 51762
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51786" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileJVbMee"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846512523	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846512615	Marionette	INFO	Listening on port 51803
+WebDriver BiDi listening on ws://127.0.0.1:51786
+Read port: 51803
+1698846512787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51786/devtools/browser/10e00d09-719a-4dff-babd-6945ab330235
+1698846525649	Marionette	INFO	Stopped listening on port 51803
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile4wE9FB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846521890	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846521977	Marionette	INFO	Listening on port 51842
+WebDriver BiDi listening on ws://127.0.0.1:51829
+Read port: 51842
+1698846522148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51829/devtools/browser/5729fa8b-1f6d-4779-8b76-8280cb3cb37d
+1698846526400	Marionette	INFO	Stopped listening on port 51842
+Dynamically enable window occlusion 1
+1698846526967	geckodriver	INFO	Listening on 127.0.0.1:51864
+1698846530037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileaIugu5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846530362	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846530458	Marionette	INFO	Listening on port 51872
+WebDriver BiDi listening on ws://127.0.0.1:51865
+Read port: 51872
+1698846530614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51865/devtools/browser/c690161c-95c4-4843-9f5a-1db7d3ada26b
+1698846562812	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698846577515	Marionette	INFO	Stopped listening on port 51872
+Dynamically enable window occlusion 1
+1698846583752	geckodriver	INFO	Listening on 127.0.0.1:51928
+1698846586837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51929" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileynmJEc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846587167	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846587267	Marionette	INFO	Listening on port 51938
+WebDriver BiDi listening on ws://127.0.0.1:51929
+Read port: 51938
+1698846587408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51929/devtools/browser/d602743e-8296-4375-b3ef-67435411bf54
+1698846617183	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698846660018	geckodriver	INFO	Listening on 127.0.0.1:52023
+1698846663066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52024" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileBtyQDJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846663410	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846663511	Marionette	INFO	Listening on port 52031
+WebDriver BiDi listening on ws://127.0.0.1:52024
+Read port: 52031
+1698846663703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52024/devtools/browser/ce798fa2-b96e-427f-a12d-b446330185c9
+1698846680065	geckodriver	INFO	Listening on 127.0.0.1:52090
+1698846838590	geckodriver	INFO	Listening on 127.0.0.1:52157
+1698846841658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52158" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilegFbDPR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846841978	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846842066	Marionette	INFO	Listening on port 52167
+WebDriver BiDi listening on ws://127.0.0.1:52158
+Read port: 52167
+1698846842223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52158/devtools/browser/5e5fa250-fb31-4353-8314-207992c77bea
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_852025_815747&as=7YN0VePadTY22E6wZ1ZnhQ&hl=pt, line 56: Script terminated by timeout at:
+Zb@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:56:448
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:59:473
+
+1698846872013	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698846917649	geckodriver	INFO	Listening on 127.0.0.1:52257
+1698846920718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52258" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilee7vZrO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846921035	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846921129	Marionette	INFO	Listening on port 52265
+WebDriver BiDi listening on ws://127.0.0.1:52258
+Read port: 52265
+1698846921286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52258/devtools/browser/14e73c5a-18ba-433a-a137-acbd8109e67a
+1698846945383	Marionette	INFO	Stopped listening on port 52265
+Dynamically enable window occlusion 1
+1698846946541	geckodriver	INFO	Listening on 127.0.0.1:52321
+1698846949608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52322" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileAdBc76"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698846950028	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698846950138	Marionette	INFO	Listening on port 52329
+WebDriver BiDi listening on ws://127.0.0.1:52322
+Read port: 52329
+1698846950360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52322/devtools/browser/10c3b74a-011e-4cb0-ba31-3ebf6ba3fdeb
+1698846980070	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847018019	geckodriver	INFO	Listening on 127.0.0.1:52420
+1698847021090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile5cX0lz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847021565	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847021668	Marionette	INFO	Listening on port 52433
+WebDriver BiDi listening on ws://127.0.0.1:52421
+Read port: 52433
+1698847021848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52421/devtools/browser/6b1305b4-7361-4dde-9818-26765d01c0c3
+1698847051589	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847089141	geckodriver	INFO	Listening on 127.0.0.1:52540
+1698847092218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52541" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileUEEdZv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847092578	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847092675	Marionette	INFO	Listening on port 52551
+WebDriver BiDi listening on ws://127.0.0.1:52541
+Read port: 52551
+1698847092856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52541/devtools/browser/05fa4dc8-331e-4258-9441-8f7d96d45e56
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847122611	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698847145597	geckodriver	INFO	Listening on 127.0.0.1:52632
+1698847148674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileSVH7Aa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847149025	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847149119	Marionette	INFO	Listening on port 52642
+WebDriver BiDi listening on ws://127.0.0.1:52633
+Read port: 52642
+1698847149314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52633/devtools/browser/d76b6f60-b5da-478b-9c4a-0c593f8c9d88
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_159205_398428&as=tuf1qdPfBpxMcHTeLq0isw&hl=pt, line 54: Script terminated by timeout at:
+Wb@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:54:2103
+Zb@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:54:2505
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:59:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847179086	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698847183486	geckodriver	INFO	Listening on 127.0.0.1:52717
+1698847184824	geckodriver	INFO	Listening on 127.0.0.1:52721
+1698847187895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52722" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilehmZ3Lp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847188231	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847188322	Marionette	INFO	Listening on port 52729
+WebDriver BiDi listening on ws://127.0.0.1:52722
+Read port: 52729
+1698847188460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52722/devtools/browser/5eb3e5e5-c572-4b88-9552-806cda3b33e7
+1698847190990	Marionette	INFO	Stopped listening on port 52729
+Dynamically enable window occlusion 1
+1698847206782	geckodriver	INFO	Listening on 127.0.0.1:52757
+1698847209841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52758" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileHXx6sq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847210142	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847210229	Marionette	INFO	Listening on port 52766
+WebDriver BiDi listening on ws://127.0.0.1:52758
+Read port: 52766
+1698847210392	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52758/devtools/browser/a91d0278-e8d5-4b3f-aedd-d5b1fd82d88f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847240170	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698847293950	geckodriver	INFO	Listening on 127.0.0.1:52850
+1698847297002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52851" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileZaOzrC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847297342	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847297431	Marionette	INFO	Listening on port 52858
+WebDriver BiDi listening on ws://127.0.0.1:52851
+Read port: 52858
+1698847297571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52851/devtools/browser/1a9003c0-8ddc-422d-a22b-61c679221ec3
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_307333_13656&as=E0%2B2liTAYVToIK1ZGIKXfQ&hl=pt, line 131: Script terminated by timeout at:
+kf@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:131:22
+_.N@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:131:158
+Ki@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:199:286
+Hi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:199:225
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:196:68
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:190:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:59:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847327395	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698847339358	geckodriver	INFO	Listening on 127.0.0.1:52937
+1698847376975	geckodriver	INFO	Listening on 127.0.0.1:52959
+1698847380012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52960" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile0GBOY5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847380354	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847380446	Marionette	INFO	Listening on port 52968
+Read port: 52968
+WebDriver BiDi listening on ws://127.0.0.1:52960
+1698847380505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52960/devtools/browser/4c8fb693-69d7-463d-8b36-f53e12c2fba6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847410378	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698847526552	geckodriver	INFO	Listening on 127.0.0.1:53101
+1698847529594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53102" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileW8n8qN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847529923	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847530038	Marionette	INFO	Listening on port 53111
+WebDriver BiDi listening on ws://127.0.0.1:53102
+Read port: 53111
+1698847530219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53102/devtools/browser/8fa5ae8d-9ab6-452c-9559-ee6cc03eedca
+1698847553358	geckodriver	INFO	Listening on 127.0.0.1:53205
+1698847556449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53206" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilehFSDpr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847556767	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847556853	Marionette	INFO	Listening on port 53213
+WebDriver BiDi listening on ws://127.0.0.1:53206
+Read port: 53213
+1698847557012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53206/devtools/browser/fd899db8-e166-4c61-bd45-a9347bb440f4
+1698847561262	Marionette	INFO	Stopped listening on port 53213
+Dynamically enable window occlusion 1
+1698847561983	geckodriver	INFO	Listening on 127.0.0.1:53232
+1698847614529	geckodriver	INFO	Listening on 127.0.0.1:53259
+1698847617621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53260" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileRjJtbY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847617951	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847618039	Marionette	INFO	Listening on port 53267
+WebDriver BiDi listening on ws://127.0.0.1:53260
+Read port: 53267
+1698847618194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53260/devtools/browser/a0de5cf9-ecff-4dd4-9aca-ac3e2c9e6360
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_627623_753587&as=R4c5%2Bf5qev9t69SG4Jpwjw&hl=pt, line 200: Script terminated by timeout at:
+Gi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAk/d=1/rs=AF0KOtXqcgVCIGidjjSeRrRzlK2S8k9-Fw/m=credential_button_library:200:440
+Ii@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAk/d=1/rs=AF0KOtXqcgVCIGidjjSeRrRzlK2S8k9-Fw/m=credential_button_library:197:323
+Fi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAk/d=1/rs=AF0KOtXqcgVCIGidjjSeRrRzlK2S8k9-Fw/m=credential_button_library:197:22
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAk/d=1/rs=AF0KOtXqcgVCIGidjjSeRrRzlK2S8k9-Fw/m=credential_button_library:196:102
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAk/d=1/rs=AF0KOtXqcgVCIGidjjSeRrRzlK2S8k9-Fw/m=credential_button_library:190:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAk/d=1/rs=AF0KOtXqcgVCIGidjjSeRrRzlK2S8k9-Fw/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAk/d=1/rs=AF0KOtXqcgVCIGidjjSeRrRzlK2S8k9-Fw/m=credential_button_library:59:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698847648350	geckodriver	INFO	Listening on 127.0.0.1:53343
+1698847649646	geckodriver	INFO	Listening on 127.0.0.1:53347
+1698847666542	geckodriver	INFO	Listening on 127.0.0.1:53361
+1698847669617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53362" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileQ6KXNV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847669952	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847670045	Marionette	INFO	Listening on port 53369
+WebDriver BiDi listening on ws://127.0.0.1:53362
+Read port: 53369
+1698847670190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53362/devtools/browser/23eab78b-2bd7-4e7e-95e8-abe5a08e375e
+1698847675607	geckodriver	INFO	Listening on 127.0.0.1:53391
+1698847678681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53392" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileyGyXxn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847679142	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847679237	Marionette	INFO	Listening on port 53401
+WebDriver BiDi listening on ws://127.0.0.1:53392
+Read port: 53401
+1698847679426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698847681440	Marionette	INFO	Stopped listening on port 53401
+Dynamically enable window occlusion 1
+1698847681450	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+1698847683882	geckodriver	INFO	Listening on 127.0.0.1:53415
+1698847686952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53416" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile7jYoOD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847687257	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847687350	Marionette	INFO	Listening on port 53423
+WebDriver BiDi listening on ws://127.0.0.1:53416
+Read port: 53423
+1698847687529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53416/devtools/browser/3081e562-44ec-405a-a1ed-611d43d5ce3c
+1698847690617	geckodriver	INFO	Listening on 127.0.0.1:53438
+1698847693674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilePusWh3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698847693982	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698847694091	Marionette	INFO	Listening on port 53449
+WebDriver BiDi listening on ws://127.0.0.1:53439
+Read port: 53449
+1698847694255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53439/devtools/browser/20630f21-d2ad-473c-8bfb-26dbac6eea3d
+1698847699903	Marionette	INFO	Stopped listening on port 53449
+Dynamically enable window occlusion 1
+1698848323746	geckodriver	INFO	Listening on 127.0.0.1:54379
+1698848326800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54380" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileNYZKe4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698848327208	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698848327330	Marionette	INFO	Listening on port 54387
+WebDriver BiDi listening on ws://127.0.0.1:54380
+Read port: 54387
+1698848327494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54380/devtools/browser/ac028c1b-f5c4-4bc4-a496-661a34911882
+1698848357240	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698848391356	Marionette	INFO	Stopped listening on port 54387
+Dynamically enable window occlusion 1
+nvironment
+1698848354977	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698848355069	Marionette	INFO	Listening on port 54458
+WebDriver BiDi listening on ws://127.0.0.1:54451
+Read port: 54458
+1698848355220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54451/devtools/browser/2ec1af64-d59d-4b2d-a354-8e40efbdde8d
+1698848384992	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698848390707	Marionette	INFO	Stopped listening on port 54458
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileF636NV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698848370696	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698848370792	Marionette	INFO	Listening on port 54524
+WebDriver BiDi listening on ws://127.0.0.1:54517
+Read port: 54524
+1698848371237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54517/devtools/browser/e89cc632-3f14-487d-b7ec-ad62eca2c76b
+1698848389836	Marionette	INFO	Stopped listening on port 54524
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54582" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileDfykOy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698848386556	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698848386649	Marionette	INFO	Listening on port 54589
+WebDriver BiDi listening on ws://127.0.0.1:54582
+Read port: 54589
+1698848386818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54582/devtools/browser/bb738b85-e7e2-468a-869b-e16b4ea2fa2f
+1698848389383	Marionette	INFO	Stopped listening on port 54589
+Dynamically enable window occlusion 1
+1698848717684	geckodriver	INFO	Listening on 127.0.0.1:54767
+1698848720778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54768" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile31gEf3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698848721129	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698848721223	Marionette	INFO	Listening on port 54775
+WebDriver BiDi listening on ws://127.0.0.1:54768
+Read port: 54775
+1698848721418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54768/devtools/browser/5004b3fd-602b-4a7d-9c81-23cace1b34bd
+1698848751159	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1698848888754	geckodriver	INFO	Listening on 127.0.0.1:54886
+1698848891807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54887" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilen0nFMS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698848892150	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698848892244	Marionette	INFO	Listening on port 54896
+WebDriver BiDi listening on ws://127.0.0.1:54887
+Read port: 54896
+1698848892430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54887/devtools/browser/f5a05e7e-81eb-40f9-8db3-0156a685c2b6
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698848900581	Marionette	INFO	Stopped listening on port 54896
+Dynamically enable window occlusion 1
+1698849659176	geckodriver	INFO	Listening on 127.0.0.1:55384
+1698849662261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilegKvkAe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698849662614	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698849662714	Marionette	INFO	Listening on port 55394
+WebDriver BiDi listening on ws://127.0.0.1:55385
+Read port: 55394
+1698849662902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55385/devtools/browser/c8cdb147-465a-42aa-bb36-22c78238cad5
+1698849692641	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698849866735	geckodriver	INFO	Listening on 127.0.0.1:55512
+1698849869796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile5v9AHI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698849870211	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698849870310	Marionette	INFO	Listening on port 55521
+WebDriver BiDi listening on ws://127.0.0.1:55513
+Read port: 55521
+1698849870482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55513/devtools/browser/ef12ec19-3241-4dcc-925f-1bffcacf7ef0
+1698849900248	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698850041055	geckodriver	INFO	Listening on 127.0.0.1:55640
+1698850042346	geckodriver	INFO	Listening on 127.0.0.1:55644
+1698850060200	geckodriver	INFO	Listening on 127.0.0.1:55660
+1698850063285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileGZU6U3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698850063605	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698850063700	Marionette	INFO	Listening on port 55668
+WebDriver BiDi listening on ws://127.0.0.1:55661
+Read port: 55668
+1698850063864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55661/devtools/browser/a513c2e0-e356-48e4-a9a1-595bfbfb1b12
+1698850093627	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698850267001	geckodriver	INFO	Listening on 127.0.0.1:55784
+1698850270061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile6x3cHT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698850270580	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698850270684	Marionette	INFO	Listening on port 55795
+WebDriver BiDi listening on ws://127.0.0.1:55785
+Read port: 55795
+1698850270899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55785/devtools/browser/16a1cbdf-69b8-4ac4-92c0-c9dc26039ad4
+1698850300630	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698850416588	geckodriver	INFO	Listening on 127.0.0.1:55902
+1698850432311	geckodriver	INFO	Listening on 127.0.0.1:55918
+1698850435396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilem4W1AN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698850435736	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698850435826	Marionette	INFO	Listening on port 55932
+WebDriver BiDi listening on ws://127.0.0.1:55919
+Read port: 55932
+1698850435972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55919/devtools/browser/d3ae633e-81a9-4d8b-9053-c3a2ba05247b
+1698850465755	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 98: Script terminated by timeout at:
+w@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:1839
+o@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:192941
+_/y<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:192278
+ao@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:60031
+jo@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:68482
+Gu@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:114921
+As@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:100033
+Ts@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99959
+xs@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99817
+ys@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:96744
+_/Ki/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45662
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45436
+Ki@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45610
+Gi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45542
+ps@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:94106
+enqueueSetState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:49575
+_/g.prototype.setState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:1386
+_/r/e._handlePlayerApi/S/e._unsubscribe<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.5aa47daa.js:1:2240
+_/e/this.subscribe/a<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99999
+m@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:10036
+_/n/</</<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:8263
+_/t.default/</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:2204
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:91010
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89492
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89235
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87602
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87227
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86935
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86708
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86341
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:102470
+_/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99230
+
+1698851161089	Marionette	INFO	Stopped listening on port 55932
+Dynamically enable window occlusion 1
+1698851169739	geckodriver	INFO	Listening on 127.0.0.1:56290
+1698851172809	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileakSdKf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698851173141	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698851173232	Marionette	INFO	Listening on port 56298
+WebDriver BiDi listening on ws://127.0.0.1:56291
+Read port: 56298
+1698851173385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56291/devtools/browser/1cb6488c-0b9d-49cc-8ed8-b6c07ee9790e
+1698851203156	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 2: Script terminated by timeout at:
+_/t.default@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:2:196875
+_/t.Z@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:220739
+_/t.default@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:229777
+e@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:220337
+ve@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:175903
+_/s/d.style<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:183628
+s@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:183638
+resolve@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:184440
+g@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:200165
+o@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:192838
+c@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2625155
+ao@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:60031
+Bo@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:69872
+Gu@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:113851
+As@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:100033
+Ts@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99959
+xs@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99817
+ys@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:96744
+_/Ki/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45662
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45436
+Ki@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45610
+Gi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45542
+ps@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:94106
+enqueueSetState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:49575
+_/g.prototype.setState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:1386
+_/r/e._handlePlayerApi/S/e._unsubscribe<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.5aa47daa.js:1:2240
+_/e/this.subscribe/a<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99999
+m@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:10036
+_/n/</</<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:8263
+_/t.default/</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:2204
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:91010
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89492
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89235
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87602
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87227
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86935
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86708
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86341
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:102470
+_/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99230
+
+1698851405743	Marionette	INFO	Stopped listening on port 56298
+Dynamically enable window occlusion 1
+1698851415420	geckodriver	INFO	Listening on 127.0.0.1:56472
+1698851418504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileGvS73d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698851418822	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698851418911	Marionette	INFO	Listening on port 56483
+WebDriver BiDi listening on ws://127.0.0.1:56473
+Read port: 56483
+1698851419062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56473/devtools/browser/4ca9c3a1-8390-4c91-8808-ade4c1b3a9ce
+1698851448832	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698851991365	geckodriver	INFO	Listening on 127.0.0.1:57106
+1698851994440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileFwACSw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698851994782	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698851994873	Marionette	INFO	Listening on port 57122
+WebDriver BiDi listening on ws://127.0.0.1:57107
+Read port: 57122
+1698851995042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57107/devtools/browser/257ba817-5320-4049-8e60-37c23575db5e
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_4858_687050&as=%2BxctOQit5nRVWo%2FF%2BbELqw&hl=pt, line 131: Script terminated by timeout at:
+kf@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:131:22
+_.N@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:131:158
+Ki@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:199:286
+Hi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:199:225
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:196:68
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:190:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:59:473
+
+1698852024803	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698852578389	geckodriver	INFO	Listening on 127.0.0.1:57504
+1698852581451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileaKPDVq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698852581779	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698852581877	Marionette	INFO	Listening on port 57513
+Read port: 57513
+WebDriver BiDi listening on ws://127.0.0.1:57505
+1698852581950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57505/devtools/browser/b3d12b25-4ad6-49cb-a949-8801b37d57d4
+1698852611805	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698852851794	geckodriver	INFO	Listening on 127.0.0.1:57739
+1698852854853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57740" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile55Gfnr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698852855185	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698852855277	Marionette	INFO	Listening on port 57747
+WebDriver BiDi listening on ws://127.0.0.1:57740
+Read port: 57747
+1698852855422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57740/devtools/browser/d75dda2c-e5d8-411b-83cc-560e59ed29e3
+1698852885215	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698853233656	Marionette	INFO	Stopped listening on port 57747
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilept26Je"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698853210959	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698853211060	Marionette	INFO	Listening on port 58255
+WebDriver BiDi listening on ws://127.0.0.1:58215
+Read port: 58255
+1698853211224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58215/devtools/browser/ae9d0bc1-7994-4929-bdd0-da6dedde19f3
+1698853240980	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698853929964	Marionette	INFO	Stopped listening on port 58255
+Dynamically enable window occlusion 1
+vices.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698853500006	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698853500147	Marionette	INFO	Listening on port 58479
+WebDriver BiDi listening on ws://127.0.0.1:58470
+Read port: 58479
+1698853500327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58470/devtools/browser/7b96f1cc-615e-4144-831e-a67075155f7d
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_520853_226368&as=N9zYqgt5fwE6h4RqzNXGOw&hl=pt, line 54: Script terminated by timeout at:
+Wb@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:54:2103
+Zb@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:54:2505
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:59:473
+
+1698853530047	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 98: Script terminated by timeout at:
+_/t.useRef@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:5986
+ie@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:216560
+_/y<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:191495
+ao@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:60031
+jo@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:68482
+Gu@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:114921
+As@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:100033
+Ts@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99959
+xs@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99817
+ys@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:96744
+_/Ki/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45662
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45436
+Ki@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45610
+Gi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45542
+ps@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:94106
+enqueueSetState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:49575
+_/g.prototype.setState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:1386
+_/r/e._handlePlayerApi/S/e._unsubscribe<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.5aa47daa.js:1:2240
+_/e/this.subscribe/a<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99999
+m@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:10036
+_/n/</</<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:8263
+_/t.default/</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:2204
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:91010
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89492
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:89235
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87602
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87227
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86935
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86708
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86341
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:102470
+_/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99230
+
+1698853930834	Marionette	INFO	Stopped listening on port 58479
+Dynamically enable window occlusion 1
+1698854046087	geckodriver	INFO	Listening on 127.0.0.1:58811
+1698854049156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58812" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilez2MXT5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698854049479	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698854049572	Marionette	INFO	Listening on port 58820
+WebDriver BiDi listening on ws://127.0.0.1:58812
+Read port: 58820
+1698854050052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58812/devtools/browser/70f0194f-d83e-4a17-88ea-0cc29f3b01a4
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698854073284	Marionette	INFO	Stopped listening on port 58820
+Dynamically enable window occlusion 1
+1698854090451	geckodriver	INFO	Listening on 127.0.0.1:58887
+1698854093528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58888" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileeGsV9s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698854093914	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698854094017	Marionette	INFO	Listening on port 58897
+WebDriver BiDi listening on ws://127.0.0.1:58888
+Read port: 58897
+1698854094205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58888/devtools/browser/3b77346e-b10c-400a-9d9c-9ddfc931b2b4
+1698854123947	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1698854253650	geckodriver	INFO	Listening on 127.0.0.1:59008
+1698854256734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59009" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofiles6p7gD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698854257053	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698854257148	Marionette	INFO	Listening on port 59016
+WebDriver BiDi listening on ws://127.0.0.1:59009
+Read port: 59016
+1698854257322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59009/devtools/browser/9cf9597d-36fb-43b4-92f1-36342f2df47e
+1698854287112	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698854378629	geckodriver	INFO	Listening on 127.0.0.1:59140
+1698854381680	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileQW4iB2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698854382016	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698854382110	Marionette	INFO	Listening on port 59149
+WebDriver BiDi listening on ws://127.0.0.1:59141
+Read port: 59149
+1698854382249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59141/devtools/browser/c662d5e0-cc13-444f-b37f-0bbd3973d623
+1698854412041	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+[Child 20628, MediaDecoderStateMachine #1] WARNING: Decoder=205e1954a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 20628, MediaDecoderStateMachine #1] WARNING: Decoder=205e1954a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698855042462	Marionette	INFO	Stopped listening on port 59149
+Dynamically enable window occlusion 1
+vices.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698854839989	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698854840082	Marionette	INFO	Listening on port 59353
+WebDriver BiDi listening on ws://127.0.0.1:59344
+Read port: 59353
+1698854840247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59344/devtools/browser/d5dd7aa6-cc69-4d8f-bf38-681d658753d9
+1698854870016	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698855041799	Marionette	INFO	Stopped listening on port 59353
+Dynamically enable window occlusion 1
+1698855043447	geckodriver	INFO	Listening on 127.0.0.1:59511
+1698855046523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59512" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileINn5GS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698855046866	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698855046957	Marionette	INFO	Listening on port 59519
+WebDriver BiDi listening on ws://127.0.0.1:59512
+Read port: 59519
+1698855047102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59512/devtools/browser/22483d7d-440c-4d04-9ed9-591def357b5b
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_56823_729957&as=88DQffBbDIVMtoYENunzhA&hl=pt, line 56: Script terminated by timeout at:
+Zb@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:56:448
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:59:473
+
+1698855076886	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698863925832	geckodriver	INFO	Listening on 127.0.0.1:50554
+1698863928924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50555" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileXZM6r9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698863929475	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698863929581	Marionette	INFO	Listening on port 50567
+WebDriver BiDi listening on ws://127.0.0.1:50555
+Read port: 50567
+1698863929755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50555/devtools/browser/30194e27-aa08-4a43-962b-9d28b6a99d73
+1698863959485	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+console.warn: LoginRecipes: "Falling back to a synchronous m1698864289202	mozrunner::runner	INFconsole.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 1549: TypeError: shadowRoot is null
+h=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_299692_507319&as=FtH%2BPrBjSHflxM35B%2BSAhQ&hl=pt, line 191: Script terminated by timeout at:
+Ci@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:191:249
+Ii@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:197:204
+Fi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:197:22
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:196:102
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:190:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:59:473
+
+1698864319568	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+[Child 10436, MediaDecoderStateMachine #1] WARNING: Decoder=21bed98ec00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 10436, MediaDecoderStateMachine #1] WARNING: Decoder=21bed98ec00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk i18n/emoji-en failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/i18n/emoji-en.ae5103ca.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Amaro_Coronel/status/1717742108272959669, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698864586980	Marionette	INFO	Stopped listening on port 51409
+Dynamically enable window occlusion 1
+vices.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698864525224	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698864525333	Marionette	INFO	Listening on port 51599
+WebDriver BiDi listening on ws://127.0.0.1:51591
+Read port: 51599
+1698864525602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51591/devtools/browser/5e201926-2023-4d9a-a993-e120f897cfbf
+1698864555270	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719752689381147116, line 158: ChunkLoadError: Loading chunk shared~ondemand.EmojiPickerData~ondemand.ParticipantReaction~ondemand.EmojiPicker failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/shared~ondemand.EmojiPickerData~ondemand.ParticipantReaction~ondemand.EmojiPicker.fa88427a.js)
+[Child 20612, MediaDecoderStateMachine #1] WARNING: Decoder=144914c1600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 20612, MediaDecoderStateMachine #1] WARNING: Decoder=144914c1600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/Moacir_Filho21/status/1719752920269193413, line 158: ChunkLoadError: Loading chunk i18n/emoji-en failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/i18n/emoji-en.ae5103ca.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://twitter.com/millanrussy/status/1719734420339360106, line 158: ChunkLoadError: Loading chunk i18n/emoji-en failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/i18n/emoji-en.ae5103ca.js)
+JavaScript error: https://twitter.com/EHBaserrigorri/status/1719647190388289908, line 158: ChunkLoadError: Loading chunk i18n/emoji-en failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/i18n/emoji-en.ae5103ca.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://twitter.com/JuanmiGG_News/status/1719768568718377015, line 158: ChunkLoadError: Loading chunk shared~ondemand.EmojiPickerData~ondemand.ParticipantReaction~ondemand.EmojiPicker failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/shared~ondemand.EmojiPickerData~ondemand.ParticipantReaction~ondemand.EmojiPicker.fa88427a.js)
+1698865121272	geckodriver	INFO	Listening on 127.0.0.1:51876
+1698865124337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile5sqemn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698865124651	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698865124736	Marionette	INFO	Listening on port 51884
+WebDriver BiDi listening on ws://127.0.0.1:51877
+Read port: 51884
+1698865124902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51877/devtools/browser/b794161d-cad4-4e28-8a0d-f467816a5518
+1698865154665	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://twitter.com/tinda_singh/status/1719755613247353214, line 158: ChunkLoadError: Loading chunk i18n/emoji-en failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/i18n/emoji-en.ae5103ca.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719788905543631032, line 158: ChunkLoadError: Loading chunk i18n/emoji-en failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/i18n/emoji-en.ae5103ca.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://twitter.com/Asr23267077/status/1719744389847678986, line 158: ChunkLoadError: Loading chunk i18n/emoji-en failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/i18n/emoji-en.ae5103ca.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/HoyPalestina/status/1719769475841421688, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/hilde_angel/status/1719789274894061587, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/XPost1A/status/1719783823217512871, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:1:2739636
+
+1698866231326	Marionette	INFO	Stopped listening on port 51884
+Dynamically enable window occlusion 1
+vices.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698865827625	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698865827730	Marionette	INFO	Listening on port 52626
+WebDriver BiDi listening on ws://127.0.0.1:52611
+Read port: 52626
+1698865827905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52611/devtools/browser/46f4558c-07b2-4cee-ac68-b146e85c2ba9
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_837630_480761&as=6wOlCdGPGiYCS4vJGhWV7Q&hl=pt, line 188: Script terminated by timeout at:
+gi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:188:62
+Ii@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:196:433
+Fi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:196:22
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:195:102
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:189:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_button_library:59:473
+
+1698865857652	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://twitter.com/claudiopedrosa8/status/1719669485857075440, line 158: ChunkLoadError: Loading chunk ondemand.LottieWeb failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/ondemand.LottieWeb.0e2c016a.js)
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/shared~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlayerMiniUI~loaders.video.VideoPlayerEventsUI.94f747da.js, line 1: Script terminated by timeout at:
+_/f<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlayerMiniUI~loaders.video.VideoPlayerEventsUI.94f747da.js:1:1424
+Uo@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:68945
+Gu@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:116137
+As@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:100033
+Ts@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99959
+xs@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99817
+ys@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:96744
+_/Ki/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45662
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.282163da.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45436
+Ki@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45610
+Gi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45542
+ps@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:94106
+enqueueSetState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:49575
+_/g.prototype.setState@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:98:1386
+_/r/e._handlePlayerApi/S/e._unsubscribe<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.5aa47daa.js:1:2240
+_/e/this.subscribe/a<@https://abs.twimg.com/responsive-web/clienJavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+35
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87602
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:87227
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86935
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86708
+_/Ir</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:86341
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:102470
+_/e/this.updatePosition/_r<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.e625651a.js:1:99230
+
+1698866230318	Marionette	INFO	Stopped listening on port 52626
+Dynamically enable window occlusion 1
+1698866525949	geckodriver	INFO	Listening on 127.0.0.1:53150
+1698866528991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53151" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileSQWHFu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698866529352	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698866529445	Marionette	INFO	Listening on port 53158
+WebDriver BiDi listening on ws://127.0.0.1:53151
+Read port: 53158
+1698866529616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53151/devtools/browser/47cd6591-6076-47c5-a703-39b3df0bd03a
+1698866559384	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
