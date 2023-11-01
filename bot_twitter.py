@@ -128,6 +128,7 @@ class bot_twitter():
         self.driver.save_screenshot('imgs/aux.png')
         self.post_links = list()
         n_scroll = 0
+        i = 0
 
         script = f""" 
                     var results = document.getElementsByClassName('css-4rbku5 css-18t94o4 css-901oao r-1bwzh9t r-1loqt21 r-xoduu5 r-1q142lx r-1w6e6rj r-37j5jr r-a023e6 r-16dba41 r-9aw3ui r-rjixqe r-bcqeeo r-3s2u2q r-qvutc0')
@@ -135,9 +136,11 @@ class bot_twitter():
                   """
         
         elements = self.driver.execute_script(script)
-    
+
         while True:
             self.driver.save_screenshot('imgs/aux2.png')
+            print(i)
+            i+=1
             for element in elements:
                 try:
                     href = element.get_attribute('href')
