@@ -2716,3 +2716,24 @@ _/d/e._pollForHoverOut/e._hoverOutPollTimer<@https://abs.twimg.com/responsive-we
 
 Dynamically enable window occlusion 1
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1698871862799	geckodriver	INFO	Listening on 127.0.0.1:56377
+1698871865849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56378" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileVCV8zS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698871866213	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698871866312	Marionette	INFO	Listening on port 56387
+WebDriver BiDi listening on ws://127.0.0.1:56378
+Read port: 56387
+1698871866490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56378/devtools/browser/2876919c-156d-47cc-b9a6-c4e42e1a5fcf
+1698871896234	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1698872073001	Marionette	INFO	Stopped listening on port 56387
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.5b1d2d2a.js, line 1: Script terminated by timeout at:
+_/d/e._pollForHoverOut/e._hoverOutPollTimer<@https://abs.twimg.com/responsive-web/client-web-legacy/main.5b1d2d2a.js:1:2684232
+
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/loader.AppModules.1aa8d99a.js, line 1: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/loader.AppModules.1aa8d99a.js, line 1: TypeError: can't access dead object

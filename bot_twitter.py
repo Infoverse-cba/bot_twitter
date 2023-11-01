@@ -124,7 +124,7 @@ class bot_twitter():
         Informações importantes para o desenvolvimento do código:
         class do usuario do post, tempo de publicação ou anuncio: x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h
         """
-        print('extraindo infomações...')
+        print('extraindo informações...')
         self.post_links = list()
         n_scroll = 0
 
@@ -152,7 +152,6 @@ class bot_twitter():
                 else:
                     n_scroll += 1
                     
-            
             self.driver.execute_script("window.scrollBy(0,1150)")
 
             if len(self.post_links) >= n_posts or n_scroll > 150:
@@ -410,7 +409,7 @@ def inserir_db(data, post_links, id_pesquisa_avulsa):
 
                     return 1
                 
-                print(f'imagem {i} inserida com sucesso')
+                print(f'imagem {i+1} inserida com sucesso')
                 
         except Exception as e:
             print('Erro na insersão de dados')
