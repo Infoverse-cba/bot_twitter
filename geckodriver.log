@@ -2737,3 +2737,244 @@ JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/loader.
 Dynamically enable window occlusion 1
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/loader.AppModules.1aa8d99a.js, line 1: TypeError: can't access dead object
+1699044344335	geckodriver	INFO	Listening on 127.0.0.1:61903
+1699044347398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61904" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileYQZD3M"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699044347817	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699044347876	Marionette	INFO	Listening on port 61916
+WebDriver BiDi listening on ws://127.0.0.1:61904
+Read port: 61916
+1699044348062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61904/devtools/browser/0bff0b21-811d-4c92-b4be-03a6f8345ef9
+1699044378607	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1699044534165	Marionette	INFO	Stopped listening on port 61916
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1699044981072	geckodriver	INFO	Listening on 127.0.0.1:62262
+1699044984145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile6DAOMD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699044984492	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699044984558	Marionette	INFO	Listening on port 62270
+WebDriver BiDi listening on ws://127.0.0.1:62263
+Read port: 62270
+1699044984756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62263/devtools/browser/42f504ca-5f44-41b7-ba9a-dfa3ac0d10ad
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_996430_656946&as=WAug1zOmhlNVlv7Xs8YIbg&hl=pt, line 131: Script terminated by timeout at:
+kf@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:131:22
+_.N@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:131:158
+Ki@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:200:286
+Hi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:200:225
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:197:68
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:191:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFA0/d=1/rs=AF0KOtXSf4UeHpXhgsQd-rEYVppjBZCvqQ/m=credential_button_library:59:473
+
+1699045014563	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1699045285324	geckodriver	INFO	Listening on 127.0.0.1:62430
+1699045288381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileSZTMin"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699045288755	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699045288820	Marionette	INFO	Listening on port 62439
+WebDriver BiDi listening on ws://127.0.0.1:62431
+Read port: 62439
+1699045288974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62431/devtools/browser/21d3a28b-22cd-4bfc-a245-61989d1adbe6
+1699045318969	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+[Child 19944, MediaDecoderStateMachine #1] WARNING: Decoder=2756b210400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 19944, MediaDecoderStateMachine #1] WARNING: Decoder=2756b210400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+[Child 19944, MediaDecoderStateMachine #1] WARNING: Decoder=275018d3900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 19944, MediaDecoderStateMachine #1] WARNING: Decoder=275018d3900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+1699045476715	Marionette	INFO	Stopped listening on port 62439
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1699045752263	geckodriver	INFO	Listening on 127.0.0.1:62694
+1699045755324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62695" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileAYO7Kk"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699045755638	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699045755690	Marionette	INFO	Listening on port 62704
+WebDriver BiDi listening on ws://127.0.0.1:62695
+Read port: 62704
+1699045755829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62695/devtools/browser/b4e9530f-2ff1-4fea-8f46-3a816405319f
+1699045786220	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+[Child 17836, MediaDecoderStateMachine #1] WARNING: Decoder=1d1512caf00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 17836, MediaDecoderStateMachine #1] WARNING: Decoder=1d1512caf00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+1699045923466	Marionette	INFO	Stopped listening on port 62704
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1699046002111	geckodriver	INFO	Listening on 127.0.0.1:62886
+1699046005166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62887" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileVS9bdY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699046005466	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699046005518	Marionette	INFO	Listening on port 62894
+WebDriver BiDi listening on ws://127.0.0.1:62887
+Read port: 62894
+1699046005664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62887/devtools/browser/c446f16e-a242-4919-b524-312aafcc8007
+1699046036226	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1699046059694	geckodriver	INFO	Listening on 127.0.0.1:62944
+1699046062768	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62945" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile9WrSS9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699046063030	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699046063080	Marionette	INFO	Listening on port 62952
+WebDriver BiDi listening on ws://127.0.0.1:62945
+Read port: 62952
+1699046063219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62945/devtools/browser/b0434b5c-7ebe-4f3b-b483-c79284022a8c
+1699046085546	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1699046093077	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1699046114604	geckodriver	INFO	Listening on 127.0.0.1:63008
+1699046117691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63009" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileA2SVKB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699046117960	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699046118035	Marionette	INFO	Listening on port 63016
+WebDriver BiDi listening on ws://127.0.0.1:63009
+Read port: 63016
+1699046118185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63009/devtools/browser/87f750d4-c1e6-4bfb-9a73-4f093757228f
+1699046147977	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+1699046413708	Marionette	INFO	Stopped listening on port 63016
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1699046504514	geckodriver	INFO	Listening on 127.0.0.1:63297
+1699046507554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileCxHL4u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699046507819	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699046507894	Marionette	INFO	Listening on port 63309
+WebDriver BiDi listening on ws://127.0.0.1:63298
+Read port: 63309
+1699046508042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63298/devtools/browser/08ce093a-b45f-4d8d-bab6-17de18b02ea2
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=KuggmSbkH5axeFGXPKigMA&channel_id=75ba524bc116c8b409f02170faa0442ada43e1e05a35a7e0d04e7dc812c0ac8f&origin=https%3A%2F%2Ftwitter.com&is_itp=true, line 132: Script terminated by timeout at:
+_.nf@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:132:84
+Gi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:199:315
+Ii@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:196:323
+Fi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:196:22
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:195:102
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:189:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAg/d=1/rs=AF0KOtWWMhCDqW_apUSV9IvGLOV5qFGKmg/m=credential_server_library:59:473
+
+JavaScript error: resource://gre/modules/PromiseWorker.sys.mjs, line 102: Error: Could not get children of file(C:\Users\vitor\AppData\Local\Temp\rust_mozprofileCxHL4u\thumbnails) because it does not exist
+1699046537827	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: (new NotFoundError("Could not get children of file(C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileCxHL4u\\crashes\\events) because it does not exist", (void 0)))
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/ANSatAhgHWrK9d7HK92_mg/UsersByRestIds HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 99: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1699046671381	Marionette	INFO	Stopped listening on port 63309
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: Script terminated by timeout at:
+_/O</O<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:147577
+_/O<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:147693
+ao@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:60031
+jo@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:68482
+Gu@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:114921
+As@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:100033
+Ts@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99959
+xs@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:99817
+ys@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:96744
+_/Ki/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45662
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.84b46dfa.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45436
+Ki@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45610
+Gi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45542
+Ms@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:105949
+_/n.unstable_runWithPriority@https://abs.twimg.com/responsive-web/client-web-legacy/main.84b46dfa.js:35:3390
+Wi@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:45436
+Ns@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:105220
+_/Ds/<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js:74:105130
+x@https://abs.twimg.com/responsive-web/client-web-legacy/main.84b46dfa.js:35:2436
+_/S.port1.onmessage@https://abs.twimg.com/responsive-web/client-web-legacy/main.84b46dfa.js:35:1132
+
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object

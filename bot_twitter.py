@@ -23,8 +23,8 @@ class bot_twitter():
         options = webdriver.FirefoxOptions()
         options.add_argument("-headless")
 
-        self.driver = webdriver.Firefox(options=options)
-        # self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox(options=options)
+        self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -79,7 +79,7 @@ class bot_twitter():
 
         return wrapper
 
-    def login_twitter(self):
+    def login(self):
         print('fazendo login no twitter')
         # self.cred_login = 'rogerio@rbbtrade.com'
         # self.cred_usuario = 'RBB1975249'
@@ -124,11 +124,9 @@ class bot_twitter():
         Informações importantes para o desenvolvimento do código:
         class do usuario do post, tempo de publicação ou anuncio: x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h
         """
-        print('extraindo informações...')
-        self.driver.save_screenshot('imgs/aux.png')
+        print('Obtendo links dos posts...')
         self.post_links = list()
         n_scroll = 0
-        i = 0
 
         script = f""" 
                     var results = document.getElementsByClassName('css-4rbku5 css-18t94o4 css-901oao r-1bwzh9t r-1loqt21 r-xoduu5 r-1q142lx r-1w6e6rj r-37j5jr r-a023e6 r-16dba41 r-9aw3ui r-rjixqe r-bcqeeo r-3s2u2q r-qvutc0')
@@ -138,9 +136,6 @@ class bot_twitter():
         elements = self.driver.execute_script(script)
 
         while True:
-            self.driver.save_screenshot('imgs/aux2.png')
-            print(n_scroll)
-            i+=1
             for element in elements:
                 try:
                     href = element.get_attribute('href')
@@ -164,18 +159,16 @@ class bot_twitter():
 
             else:
                 elements = self.driver.execute_script(script)
-        self.driver.save_screenshot('imgs/aux3.png')
 
     def get_information(self):
-        print('extraindo informações...')
+        print('Obtendo informações dos posts...')
         data_temp = list()
         data = list()
-        i = 1
 
         text_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[3]/div[1]/div/div[1]/span'
         usuario_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/div/div/a/div/span'
 
-        for link in self.post_links:
+        for i,link in enumerate(self.post_links):
             data_temp = list()
             try:
                 self.driver.get(link)
@@ -208,28 +201,46 @@ class bot_twitter():
             data_hora_atual = datetime.now()
             data_hora = data_hora_atual.strftime('%m/%d/%Y %H:%M:%S')
 
-            dataframe = pd.DataFrame(data, columns=['usuario', 'data_publication', 'usuario_link', 'publication_link', 'bytea'])
-            dataframe['publication_id'] = [item[-2].split('/')[-1] for item in data]
-            dataframe['search_keyword'] = [self.search_keyword] * len(data)
-            dataframe['date_search'] = [data_hora] * len(data)
+            self.dataframe = pd.DataFrame(data, columns=['usuario', 'data_publication', 'usuario_link', 'publication_link', 'bytea'])
+            self.dataframe['publication_id'] = [item[-2].split('/')[-1] for item in data]
+            self.dataframe['search_keyword'] = [self.search_keyword] * len(data)
+            self.dataframe['date_search'] = [data_hora] * len(data)
 
         except Exception as e:
             print('erro na hora de criar o dataframe')
             print(e)
 
         self.driver.quit()
-        return dataframe
 
-    @time_out(time_out=10, raise_exception=False)
-    def take_screenshot(self, publication_links):
-        for i,link in enumerate(publication_links):
-            self.driver.get(link)
-            sleep(2)
-            self.driver.save_screenshot('imgs/'+str(i)+'.png')
+    def get_data(self):
+        return self.dataframe
 
-    def get_links(self):
-        return self.post_links
+def execute_sql(sql, data = None, fetch=False):
+    try:
+        con = conecta_db()
+        cursor = con.cursor()
 
+        if fetch:
+            cursor.execute(sql)
+            rows = cursor.fetchall()
+            con.commit()
+            cursor.close()
+            con.close()
+
+            return rows
+        
+        cursor.execute(sql, data)
+        con.commit()
+
+        cursor.close()
+        con.close()
+
+    except (Exception, psycopg2.DatabaseError) as error:
+                    print("Error: %s" % error)
+                    con.rollback()
+                    cursor.close()
+                    con.close()
+                    raise(error)
 
 def remover_letra(string, letra_retirar):
     nova_string = ""
@@ -264,33 +275,19 @@ def retorna_pesquisa_avulsa():
     return rows
 
 def set_status_pesquisa_avulsa(id):
-    con = conecta_db()
-    cursor = con.cursor()
-
-    sql3 = """UPDATE pesquisa_avulsa_twitter
+    sql = """UPDATE pesquisa_avulsa_twitter
             SET status=true
             WHERE id ="""+ str(id) +""";"""
     
-    cursor.execute(sql3)
-    con.commit()
-
-    cursor.close()
-    con.close()
+    execute_sql(sql)
 
 def retorna_credencial(credencial_id):
-    con = conecta_db()
-    cursor = con.cursor()
-
-    sql3 = """SELECT id, descricao, usuario, senha, arroba
+    sql = """SELECT id, descricao, usuario, senha, arroba
     FROM bot_credencial_twitter WHERE id ="""+ str(credencial_id) +""";"""
 
-    cursor.execute(sql3)
-    row3 = cursor.fetchall()
+    row = execute_sql(sql, fetch=True)
 
-    cursor = cursor.close()
-    con = con.close()
-
-    return row3
+    return row
 
 def verificando_busca_avulsa():
     rows = retorna_pesquisa_avulsa()
@@ -301,41 +298,27 @@ def verificando_busca_avulsa():
         row2 = retorna_credencial(id_credencial)
         _, _, cred_login, cred_senha, cred_usuario = row2[0]
 
-
-        if len(row) != 0:
-            print('busca encontrada')
-
-            # try:
-            executando_busca(id, id_usuario, id_credencial, date_search, status, search_keyword, filtro, cred_usuario, cred_login, cred_senha)
-
-            # except:
-            #     executando_busca(id, id_usuario, id_credencial, date_search, status, search_keyword, filtro, cred_usuario, cred_login, cred_senha)
-
-        else:
-            print('nenhuma busca encontrada')
-            break
+        executando_busca(id, id_usuario, id_credencial, date_search, status, search_keyword, filtro, cred_usuario, cred_login, cred_senha)
 
         set_status_pesquisa_avulsa(id)
 
 def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword, filtro, cred_usuario, cred_login, cred_senha):
-    print('executando busca')
+    print('executando busca...')
     bot = bot_twitter(cred_login, cred_usuario, cred_senha)
-    # bot.main(keyword)
-    bot.login_twitter()
+    bot.login()
 
     sleep(5)
 
     bot.search_keyword(keyword)
     bot.get_post_links()
-    post_links = bot.get_links()
-    data = bot.get_information()
+    bot.get_information()
 
-    inserir_db(data, post_links, id)
+    inserir_db(bot.get_data(), id)
         
-def inserir_db(data, post_links, id_pesquisa_avulsa):
+def inserir_db(data, id_pesquisa_avulsa):
     print('Inserindo no banco de dados')
 
-    for i,link in enumerate(post_links):
+    for i,link in enumerate(data['publication_link']):
         try:
             publication_id = link
             publication_id = remover_letra(publication_id, '/')
@@ -349,64 +332,29 @@ def inserir_db(data, post_links, id_pesquisa_avulsa):
             values('%s','%s', '%s', '%s', '%s', '%s', '%s', '%s' );
             """ % (publication_id, data['usuario'][i], data['usuario_link'][i], data['data_publication'][i], data['publication_link'][i], data['search_keyword'][i], data['date_search'][i], id_pesquisa_avulsa)
 
-            con = conecta_db()
-            cursor = con.cursor()
+            linhas = execute_sql("""SELECT publication_id FROM pesquisa_bot_twitter WHERE publication_id = '"""+ str(publication_id) +"""';""", fetch=True)
 
-            cursor.execute("""SELECT publication_id FROM pesquisa_bot_twitter WHERE publication_id = '"""+ str(publication_id) +"""';""")
-            linhas = cursor.fetchall()
-
-            cursor.close()
-            con.close()
-            
             # Conte o número de linhas retornadas
             numero_de_linhas = len(linhas)
 
             if numero_de_linhas == 0:
-                try:
-                    con = conecta_db()
-                    cursor = con.cursor()
-
-                    cursor.execute(sql)
-                    con.commit()
-
-                    cursor.close()
-                    con.close()
-
-
-                    with open('imgs/'+str(i+1)+'.png', 'rb') as file:
-                        imagem_bytes = file.read()
-
-                    # data_bin = (psycopg2.Binary(imagem_bytes),)
-
-                    data_img = (publication_id, psycopg2.Binary(imagem_bytes))
-
-                    sql2 = """
-                            INSERT INTO pesquisa_screenshot_twitter (publication_id, bytea) 
-                            VALUES (%s, %s);
-                            """
-
-                    con = conecta_db()
-                    cursor = con.cursor()
-
-                    cursor.execute(sql2, data_img)
-                    con.commit()
-
-                    cursor.close()
-                    con.close()
-
-                except (Exception, psycopg2.DatabaseError) as error:
-                    print("Error: %s" % error)
-                    con.rollback()
-                    cursor.close()
-                    con.close()
-
-                    return 1
                 
-                print(f'imagem {i+1} inserida com sucesso')
+                execute_sql(sql)
+
+                with open('imgs/'+str(i+1)+'.png', 'rb') as file:
+                    imagem_bytes = file.read()
+
+                data_img = (publication_id, psycopg2.Binary(imagem_bytes))
+
+                sql2 = """
+                        INSERT INTO pesquisa_screenshot_twitter (publication_id, bytea) 
+                        VALUES (%s, %s);
+                        """
+
+                execute_sql(sql2, data = data_img)
                 
         except Exception as e:
             print('Erro na insersão de dados')
-            print(e)
             raise(e)
         
     print('Dados inseridos com sucesso!!')
