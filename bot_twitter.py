@@ -230,19 +230,6 @@ class bot_twitter():
     def get_links(self):
         return self.post_links
 
-    def main(self, keyword):
-        bot = bot_twitter()
-    
-        bot.main('Hamas')
-
-        self.login_twitter()
-        sleep(5)
-        self.search_keyword(keyword)
-        self.get_post_link()
-        data = self.get_information()
-    
-        self.inserir_db(data)
-
 
 def remover_letra(string, letra_retirar):
     nova_string = ""
