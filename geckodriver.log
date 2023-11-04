@@ -3041,3 +3041,35 @@ _0x513c9c@https://dd.betano.com/tags.js:2:212809
 @https://dd.betano.com/tags.js:2:213434
 
 JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=82099646fc0a1d1b, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1699109751439	geckodriver	INFO	Listening on 127.0.0.1:52369
+1699109754520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52370" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileFUHDaP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699109754919	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699109755028	Marionette	INFO	Listening on port 52378
+WebDriver BiDi listening on ws://127.0.0.1:52370
+Read port: 52378
+1699109755206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52370/devtools/browser/22feed55-8613-43a9-b3be-62ece2d5c790
+1699109784932	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://twitter.com/proudincel/status/1718347832262828282, line 158: ChunkLoadError: Loading chunk shared~ondemand.EmojiPickerData~ondemand.ParticipantReaction~ondemand.EmojiPicker failed.
+(error: https://abs.twimg.com/responsive-web/client-web-legacy/shared~ondemand.EmojiPickerData~ondemand.ParticipantReaction~ondemand.EmojiPicker.fa88427a.js)
+1699109921630	Marionette	INFO	Stopped listening on port 52378
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/loaders.video.PlayerHls1.1.173b51ba.js, line 253: Script terminated by timeout at:
+_/e/srcTaskLoopTs/e.tick@https://abs.twimg.com/responsive-web/client-web-legacy/loaders.video.PlayerHls1.1.173b51ba.js:253:967
+
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1699110399438	geckodriver	INFO	Listening on 127.0.0.1:52769
+1699110402504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52770" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilezgVkEH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699110402924	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699110403020	Marionette	INFO	Listening on port 52777
+WebDriver BiDi listening on ws://127.0.0.1:52770
+Read port: 52777
+1699110403214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52770/devtools/browser/f383d591-a2dd-40cc-8448-48730704c5dd
