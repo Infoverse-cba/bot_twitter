@@ -2978,3 +2978,66 @@ _/S.port1.onmessage@https://abs.twimg.com/responsive-web/client-web-legacy/main.
 
 Dynamically enable window occlusion 1
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1699064759318	geckodriver	INFO	Listening on 127.0.0.1:50532
+1699064762420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile8kGQ20"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699064762758	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699064762833	Marionette	INFO	Listening on port 50541
+WebDriver BiDi listening on ws://127.0.0.1:50533
+Read port: 50541
+1699064762998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50533/devtools/browser/0ff1960a-b497-41b1-8fcc-85162c926119
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_771595_773681&as=6udRj2tPqcx04mDi1OAq8w&hl=pt, line 189: Script terminated by timeout at:
+gi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:189:62
+Ii@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:197:433
+Fi@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:197:22
+Bi.prototype.I@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:196:102
+Bi/<@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:190:288
+rc@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.Xbg35GwU4UI.O/am=AFAw/d=1/rs=AF0KOtWmsrCIqZxXAVD2ww2daX1C_ekiTg/m=credential_button_library:59:473
+
+1699064792774	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0u6LybPbIIrvWoX9M2XI0DYXTiYxUdhmve4wO4VEBqD91NvFkqsMWlAdSQX7B42HyJ23PXp4Sw6RxIo1GhRsEscklBLQcrloYzSEJT0jMUZ5I6VUrijZJNjsziPpZZyC5g702yBJk5Kh8iqB3Eau5HEPzgj1&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQxZTQ4MGExZS03NDg0LTQyOTYtODlhNC02NDNhOWEwOWE3Yjg, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0u6LybPbIIrvWoX9M2XI0DYXTiYxUdhmve4wO4VEBqD91NvFkqsMWlAdSQX7B42HyJ23PXp4Sw6RxIo1GhRsEscklBLQcrloYzSEJT0jMUZ5I6VUrijZJNjsziPpZZyC5g702yBJk5Kh8iqB3Eau5HEPzgj1&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQxZTQ4MGExZS03NDg0LTQyOTYtODlhNC02NDNhOWEwOWE3Yjg, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0u6LybPbIIrvWoX9M2XI0DYXTiYxUdhmve4wO4VEBqD91NvFkqsMWlAdSQX7B42HyJ23PXp4Sw6RxIo1GhRsEscklBLQcrloYzSEJT0jMUZ5I6VUrijZJNjsziPpZZyC5g702yBJk5Kh8iqB3Eau5HEPzgj1&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQxZTQ4MGExZS03NDg0LTQyOTYtODlhNC02NDNhOWEwOWE3Yjg, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0u6LybPbIIrvWoX9M2XI0DYXTiYxUdhmve4wO4VEBqD91NvFkqsMWlAdSQX7B42HyJ23PXp4Sw6RxIo1GhRsEscklBLQcrloYzSEJT0jMUZ5I6VUrijZJNjsziPpZZyC5g702yBJk5Kh8iqB3Eau5HEPzgj1&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQxZTQ4MGExZS03NDg0LTQyOTYtODlhNC02NDNhOWEwOWE3Yjg, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ga__13_abel=0u397SLmwTNWk3f5WTfALHpuwVN4PS0MNcaY2dluZt8mcZ2q77Vh7XEm5jPvC5TCEEM64PKOo2SvVT87RYed2bdIoFkvOv8baIw679omj7Whi1jvRsX6AJDO95ejjrLCSEBQmdsz3JK26qoUYjtchvGNbRBe&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQ4ODkwN2JkOS0zNDU5LTRmYzYtODdlNC01NGM3ODZkNDg5ODQ, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ga__13_abel=0u397SLmwTNWk3f5WTfALHpuwVN4PS0MNcaY2dluZt8mcZ2q77Vh7XEm5jPvC5TCEEM64PKOo2SvVT87RYed2bdIoFkvOv8baIw679omj7Whi1jvRsX6AJDO95ejjrLCSEBQmdsz3JK26qoUYjtchvGNbRBe&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQ4ODkwN2JkOS0zNDU5LTRmYzYtODdlNC01NGM3ODZkNDg5ODQ, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ga__13_abel=0u397SLmwTNWk3f5WTfALHpuwVN4PS0MNcaY2dluZt8mcZ2q77Vh7XEm5jPvC5TCEEM64PKOo2SvVT87RYed2bdIoFkvOv8baIw679omj7Whi1jvRsX6AJDO95ejjrLCSEBQmdsz3JK26qoUYjtchvGNbRBe&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQ4ODkwN2JkOS0zNDU5LTRmYzYtODdlNC01NGM3ODZkNDg5ODQ, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ga__13_abel=0u397SLmwTNWk3f5WTfALHpuwVN4PS0MNcaY2dluZt8mcZ2q77Vh7XEm5jPvC5TCEEM64PKOo2SvVT87RYed2bdIoFkvOv8baIw679omj7Whi1jvRsX6AJDO95ejjrLCSEBQmdsz3JK26qoUYjtchvGNbRBe&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQ4ODkwN2JkOS0zNDU5LTRmYzYtODdlNC01NGM3ODZkNDg5ODQ, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ga__13_abel=0u397SLmwTNWk3f5WTfALHpuwVN4PS0MNcaY2dluZt8mcZ2q77Vh7XEm5jPvC5TCEEM64PKOo2SvVT87RYed2bdIoFkvOv8baIw679omj7Whi1jvRsX6AJDO95ejjrLCSEBQmdsz3JK26qoUYjtchvGNbRBe&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQ4ODkwN2JkOS0zNDU5LTRmYzYtODdlNC01NGM3ODZkNDg5ODQ, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Child 18900, MediaDecoderStateMachine #1] WARNING: 1c020fdb020 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:319
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL, line 354: Script terminated by timeout at:
+Jn@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:354:338
+aa.Jm@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:582:111
+aa.Im/k/<@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:579:121
+Sj@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:299:342
+fk@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:302:350
+k@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:579:107
+c@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:349:169
+An@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:350:269
+aa.Im@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:579:144
+c@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:598:751
+Rw@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:441:298
+Qw.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:444:263
+Qw.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:442:207
+Jw@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:439:434
+jG/<@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:599:153
+aa.Hk/<@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:551:126
+aa.Hk/c/<@https://www.googletagmanager.com/gtag/js?id=G-52YMKT02BL:550:420
+
+JavaScript error: resource://gre/actors/AudioPlaybackChild.sys.mjs, line 17: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://static.twitchcdn.net/assets/vendor-b4324f51f4a68552f355.js, line 1: Script terminated by timeout at:
+938085/g/<@https://static.twitchcdn.net/assets/vendor-b4324f51f4a68552f355.js:1:1459509
+t@https://static.twitchcdn.net/assets/vendor-b4324f51f4a68552f355.js:1:1459370
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=820995a34b351d1b, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dd.betano.com/tags.js, line 2: Script terminated by timeout at:
+_0x513c9c@https://dd.betano.com/tags.js:2:212809
+@https://dd.betano.com/tags.js:2:213434
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=82099646fc0a1d1b, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

@@ -323,6 +323,18 @@ def inserir_db(data, id_pesquisa_avulsa):
             publication_id = link
             publication_id = remover_letra(publication_id, '/')
             publication_id = remover_letra(publication_id, ':')
+            publication_id = remover_letra(publication_id, '?')
+            publication_id = remover_letra(publication_id, ',')
+            publication_id = remover_letra(publication_id, '.')
+            publication_id = remover_letra(publication_id, '=')
+            publication_id = remover_letra(publication_id, '[')
+            publication_id = remover_letra(publication_id, ']')
+            publication_id = remover_letra(publication_id, '_')
+            publication_id = remover_letra(publication_id, '-')
+            publication_id = remover_letra(publication_id, '%')
+            publication_id = remover_letra(publication_id, '#')
+            publication_id = remover_letra(publication_id, '&')
+            publication_id = remover_letra(publication_id, '!')
 
             replace_str = lambda frase: frase.replace("'", "''")
             data['data_publication'][i] = replace_str(data['data_publication'][i])
