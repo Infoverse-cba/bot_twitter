@@ -23,8 +23,8 @@ class bot_twitter():
         options = webdriver.FirefoxOptions()
         options.add_argument("-headless")
 
-        # self.driver = webdriver.Firefox(options=options)
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Firefox(options=options)
+        # self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -329,8 +329,6 @@ def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword
     bot.get_information()
 
     inserir_db(bot.get_data(), id)
-    # /html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/section/div/div/div[1]/div/div/article/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div/div[2]/div/div[3]/a
-    # /html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/section/div/div/div[7]/div/div/article/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div/div[2]/div/div[3]/a
         
 def inserir_db(data, id_pesquisa_avulsa):
     print('Inserindo no banco de dados')
