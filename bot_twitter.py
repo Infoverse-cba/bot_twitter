@@ -23,8 +23,8 @@ class bot_twitter():
         options = webdriver.FirefoxOptions()
         options.add_argument("-headless")
 
-        self.driver = webdriver.Firefox(options=options)
-        # self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox(options=options)
+        self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -129,7 +129,7 @@ class bot_twitter():
         n_scroll = 0
 
         script = f""" 
-                    var results = document.getElementsByClassName('css-4rbku5 css-18t94o4 css-901oao r-1bwzh9t r-1loqt21 r-xoduu5 r-1q142lx r-1w6e6rj r-37j5jr r-a023e6 r-16dba41 r-9aw3ui r-rjixqe r-bcqeeo r-3s2u2q r-qvutc0')
+                    var results = document.getElementsByClassName('{self.classe}');
                     return results
                   """
         
@@ -214,6 +214,20 @@ class bot_twitter():
 
     def get_data(self):
         return self.dataframe
+
+    def get_class(self):
+        print('Obtendo classe para extração de links...')
+        i = 1
+        while True:
+            try:
+                element = self.driver.find_element(by=By.XPATH, value='/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/section/div/div/div['+ str(i) +']/div/div/article/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div/div[2]/div/div[3]/a')
+                self.classe = element.get_attribute('class')
+                break
+                
+            except:
+                pass
+
+            i += 1
 
 def execute_sql(sql, data = None, fetch=False):
     try:
@@ -310,10 +324,13 @@ def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword
     sleep(5)
 
     bot.search_keyword(keyword)
+    bot.get_class()
     bot.get_post_links()
     bot.get_information()
 
     inserir_db(bot.get_data(), id)
+    # /html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/section/div/div/div[1]/div/div/article/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div/div[2]/div/div[3]/a
+    # /html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/section/div/div/div[7]/div/div/article/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div/div[2]/div/div[3]/a
         
 def inserir_db(data, id_pesquisa_avulsa):
     print('Inserindo no banco de dados')
