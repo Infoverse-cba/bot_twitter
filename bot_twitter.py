@@ -187,6 +187,7 @@ class bot_twitter():
 
                 self.driver.get_screenshot_as_file("imgs/"+str(i)+".png")
                 image = self.driver.get_screenshot_as_png()
+                image = psycopg2.Binary(image)
                 data_temp.append(image)
 
                 data.append(data_temp)
@@ -373,17 +374,17 @@ def inserir_db(data, id_pesquisa_avulsa, n_posts):
                 
                 execute_sql(sql)
 
-                with open('imgs/'+str(i+1)+'.png', 'rb') as file:
-                    imagem_bytes = file.read()
+                # with open('imgs/'+str(i+1)+'.png', 'rb') as file:
+                #     imagem_bytes = file.read()
 
-                data_img = (publication_id, psycopg2.Binary(imagem_bytes))
+                # data_img = (publication_id, psycopg2.Binary(imagem_bytes))
 
                 sql2 = """
                         INSERT INTO pesquisa_screenshot_twitter (publication_id, bytea) 
                         VALUES (%s, %s);
                         """
 
-                execute_sql(sql2, data = data_img)
+                execute_sql(sql2, data = data['bytea'][i])
                 
         except Exception as e:
             print('Erro na insersão de dados')

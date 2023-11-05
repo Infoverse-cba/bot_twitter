@@ -23,8 +23,8 @@ class bot_twitter():
         options = webdriver.FirefoxOptions()
         options.add_argument("-headless")
 
-        # self.driver = webdriver.Firefox(options=options)
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Firefox(options=options)
+        # self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -129,7 +129,7 @@ class bot_twitter():
         n_scroll = 0
 
         script = f""" 
-                    var results = document.getElementsByClassName('css-4rbku5 css-18t94o4 css-901oao r-1bwzh9t r-1loqt21 r-xoduu5 r-1q142lx r-1w6e6rj r-37j5jr r-a023e6 r-16dba41 r-9aw3ui r-rjixqe r-bcqeeo r-3s2u2q r-qvutc0')
+                    var results = document.getElementsByClassName('{self.classe}');
                     return results
                   """
         
@@ -141,7 +141,7 @@ class bot_twitter():
                     href = element.get_attribute('href')
                     
                 except:
-                    self.driver.execute_script("window.scrollBy(0,1150)")
+                    self.driver.execute_script("window.scrollBy(0,950)")
                     n_scroll += 1
                     sleep(2)
                     continue
@@ -152,7 +152,7 @@ class bot_twitter():
                 else:
                     n_scroll += 1
                     
-            self.driver.execute_script("window.scrollBy(0,1150)")
+            self.driver.execute_script("window.scrollBy(0,950)")
 
             if len(self.post_links) >= n_posts or n_scroll > 150:
                 break
@@ -187,10 +187,10 @@ class bot_twitter():
 
                 self.driver.get_screenshot_as_file("imgs/"+str(i)+".png")
                 image = self.driver.get_screenshot_as_png()
+                image = psycopg2.Binary(image)
                 data_temp.append(image)
 
                 data.append(data_temp)
-                i += 1
 
 
             except Exception as e:
@@ -214,6 +214,23 @@ class bot_twitter():
 
     def get_data(self):
         return self.dataframe
+
+    def get_class(self):
+        print('Obtendo classe para extração de links...')
+        i = 1
+        while True:
+            try:
+                element = self.driver.find_element(by=By.XPATH, value='/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/section/div/div/div['+ str(i) +']/div/div/article/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div/div[2]/div/div[3]/a')
+                self.classe = element.get_attribute('class')
+                break
+                
+            except:
+                pass
+
+            i += 1
+
+    def get_n_posts(self):
+        return len(self.post_links)
 
 def execute_sql(sql, data = None, fetch=False):
     try:
@@ -310,15 +327,17 @@ def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword
     sleep(5)
 
     bot.search_keyword(keyword)
+    bot.get_class()
     bot.get_post_links()
     bot.get_information()
+    n_posts = bot.get_n_posts()
 
-    inserir_db(bot.get_data(), id)
+    inserir_db(bot.get_data(), id, n_posts)
         
-def inserir_db(data, id_pesquisa_avulsa):
+def inserir_db(data, id_pesquisa_avulsa, n_posts):
     print('Inserindo no banco de dados')
 
-    for i,link in enumerate(data['publication_link']):
+    for i,link in enumerate(data['publication_id']):
         try:
             publication_id = link
             publication_id = remover_letra(publication_id, '/')
@@ -355,17 +374,17 @@ def inserir_db(data, id_pesquisa_avulsa):
                 
                 execute_sql(sql)
 
-                with open('imgs/'+str(i+1)+'.png', 'rb') as file:
-                    imagem_bytes = file.read()
+                # with open('imgs/'+str(i+1)+'.png', 'rb') as file:
+                #     imagem_bytes = file.read()
 
-                data_img = (publication_id, psycopg2.Binary(imagem_bytes))
+                # data_img = (publication_id, psycopg2.Binary(imagem_bytes))
 
                 sql2 = """
                         INSERT INTO pesquisa_screenshot_twitter (publication_id, bytea) 
                         VALUES (%s, %s);
                         """
 
-                execute_sql(sql2, data = data_img)
+                execute_sql(sql2, data = data['bytea'][i])
                 
         except Exception as e:
             print('Erro na insersão de dados')
