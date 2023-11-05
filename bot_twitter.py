@@ -190,7 +190,6 @@ class bot_twitter():
                 data_temp.append(image)
 
                 data.append(data_temp)
-                i += 1
 
 
             except Exception as e:
