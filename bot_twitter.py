@@ -228,6 +228,9 @@ class bot_twitter():
 
             i += 1
 
+    def get_n_posts(self):
+        return len(self.post_links)
+
 def execute_sql(sql, data = None, fetch=False):
     try:
         con = conecta_db()
@@ -326,13 +329,14 @@ def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword
     bot.get_class()
     bot.get_post_links()
     bot.get_information()
+    n_posts = bot.get_n_posts()
 
-    inserir_db(bot.get_data(), id)
+    inserir_db(bot.get_data(), id, n_posts)
         
-def inserir_db(data, id_pesquisa_avulsa):
+def inserir_db(data, id_pesquisa_avulsa, n_posts):
     print('Inserindo no banco de dados')
 
-    for i,link in enumerate(data['publication_link']):
+    for i,link in enumerate(data['publication_id']):
         try:
             publication_id = link
             publication_id = remover_letra(publication_id, '/')
