@@ -377,14 +377,14 @@ def inserir_db(data, id_pesquisa_avulsa, n_posts):
                 # with open('imgs/'+str(i+1)+'.png', 'rb') as file:
                 #     imagem_bytes = file.read()
 
-                # data_img = (publication_id, psycopg2.Binary(imagem_bytes))
+                data_img = (publication_id, data['bytea'][i])
 
                 sql2 = """
                         INSERT INTO pesquisa_screenshot_twitter (publication_id, bytea) 
                         VALUES (%s, %s);
                         """
 
-                execute_sql(sql2, data = data['bytea'][i])
+                execute_sql(sql2, data = data_img)
                 
         except Exception as e:
             print('Erro na insersão de dados')
