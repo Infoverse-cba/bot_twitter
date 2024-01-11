@@ -3149,3 +3149,139 @@ JavaScript error: https://twitter.com/JosueMedei71199/status/1720057926813929926
 1699122409944	Marionette	INFO	Stopped listening on port 56225
 Dynamically enable window occlusion 1
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.604fdeba.js, line 74: TypeError: can't access dead object
+1700258906896	geckodriver	INFO	Listening on 127.0.0.1:58326
+1700258909936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile4orwCh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700258910288	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700258910383	Marionette	INFO	Listening on port 58337
+WebDriver BiDi listening on ws://127.0.0.1:58327
+Read port: 58337
+1700258910556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58327/devtools/browser/8cb7de16-d932-4bf3-980e-d390b048343a
+1700258940315	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700259021771	geckodriver	INFO	Listening on 127.0.0.1:58449
+1700259024813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58450" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileRfuL5I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700259025166	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700259025256	Marionette	INFO	Listening on port 58457
+WebDriver BiDi listening on ws://127.0.0.1:58450
+Read port: 58457
+1700259025432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58450/devtools/browser/4d64c84b-241e-4068-a977-f05770eff262
+JavaScript warning: https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signin_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_35690_941564&as=c%2BTE6H4NdNCm4pKj1ly07A&hl=pt, line 54: Script terminated by timeout at:
+Vb@/_/gsi/_/js/k=gsi.gsi.pt_BR.h5cJxNJhZKs.O/am=AFAg/d=1/rs=AF0KOtWar4a5kDZ4f4dEgOKDA1bA_7YcFQ/m=credential_button_library:54:2103
+Yb@/_/gsi/_/js/k=gsi.gsi.pt_BR.h5cJxNJhZKs.O/am=AFAg/d=1/rs=AF0KOtWar4a5kDZ4f4dEgOKDA1bA_7YcFQ/m=credential_button_library:54:2505
+qc@/_/gsi/_/js/k=gsi.gsi.pt_BR.h5cJxNJhZKs.O/am=AFAg/d=1/rs=AF0KOtWar4a5kDZ4f4dEgOKDA1bA_7YcFQ/m=credential_button_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.pt_BR.h5cJxNJhZKs.O/am=AFAg/d=1/rs=AF0KOtWar4a5kDZ4f4dEgOKDA1bA_7YcFQ/m=credential_button_library:59:473
+
+1700259055194	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700259756179	geckodriver	INFO	Listening on 127.0.0.1:58889
+1700259759218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58890" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile5YqaoZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700259759581	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700259759673	Marionette	INFO	Listening on port 58905
+WebDriver BiDi listening on ws://127.0.0.1:58890
+Read port: 58905
+1700259759852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58890/devtools/browser/3c4a4a0b-7fac-4da5-8281-682d15ddaf67
+1700259789608	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700259812057	Marionette	INFO	Stopped listening on port 58905
+Dynamically enable window occlusion 1
+1700259825490	geckodriver	INFO	Listening on 127.0.0.1:58992
+1700259828543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilekOCoqF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700259828902	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700259828993	Marionette	INFO	Listening on port 59000
+WebDriver BiDi listening on ws://127.0.0.1:58993
+Read port: 59000
+1700259829159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58993/devtools/browser/e4939507-e9a3-4a24-b94e-8c98a119be6d
+1700259858920	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+[Child 22964, MediaDecoderStateMachine #1] WARNING: Decoder=20e82f78400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 22964, MediaDecoderStateMachine #1] WARNING: Decoder=20e82f78400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 99: Error: ApiError: https://api.twitter.com/1.1/account/settings.json HTTP-0 codes:[1004]
+1700260072790	Marionette	INFO	Stopped listening on port 59000
+Dynamically enable window occlusion 1
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.98c8ad5a.js, line 74: TypeError: can't access dead object
+1704919692913	geckodriver	INFO	Listening on 127.0.0.1:56962
+1704919695944	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileRr9MWl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704919696296	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704919696391	Marionette	INFO	Listening on port 56972
+WebDriver BiDi listening on ws://127.0.0.1:56963
+Read port: 56972
+1704919696573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56963/devtools/browser/3ba58de8-cc90-421a-b5d6-1b0c4f024b32
+1704919726326	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+1704919919536	geckodriver	INFO	Listening on 127.0.0.1:57109
+1704919922588	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57110" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilevpwvR2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704919922991	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704919923091	Marionette	INFO	Listening on port 57122
+WebDriver BiDi listening on ws://127.0.0.1:57110
+Read port: 57122
+1704919923224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57110/devtools/browser/a5de0be2-7395-4df0-8d18-97db416d4722
+1704919953025	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1704920069318	geckodriver	INFO	Listening on 127.0.0.1:57227
+1704920072375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57228" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile1KwRWb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704920072691	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704920072794	Marionette	INFO	Listening on port 57235
+WebDriver BiDi listening on ws://127.0.0.1:57228
+Read port: 57235
+1704920072973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57228/devtools/browser/1ce238e9-b4a9-4012-b8d8-fca6f1470ba1
+1704920102740	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+1704920506164	geckodriver	INFO	Listening on 127.0.0.1:57405
+1704920509223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57406" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilekn6Hvv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704920509639	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704920509771	Marionette	INFO	Listening on port 57413
+WebDriver BiDi listening on ws://127.0.0.1:57406
+Read port: 57413
+1704920510009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57406/devtools/browser/28814302-bdf6-40ed-81cd-c40330a318aa
+1704920539686	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.

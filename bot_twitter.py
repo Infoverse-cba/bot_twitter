@@ -6,7 +6,6 @@ import logging
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
@@ -15,16 +14,15 @@ from datetime import datetime
 
 
 class bot_twitter():
-    def __init__(self, cred_usuario, cred_login, cred_senha):
+    def __init__(self, cred_usuario, cred_login, cred_senha, headless=False):
         self.cred_usuario = cred_usuario
         self.cred_login = cred_login
         self.cred_senha = cred_senha
 
         options = webdriver.FirefoxOptions()
-        options.add_argument("-headless")
+        if headless: options.add_argument('--headless')
 
-        self.driver = webdriver.Firefox(options=options)
-        # self.driver = webdriver.Firefox()
+        self.driver = webdriver.Firefox()
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -80,141 +78,165 @@ class bot_twitter():
         return wrapper
 
     def login(self):
-        print('fazendo login no twitter')
-        # self.cred_login = 'rogerio@rbbtrade.com'
-        # self.cred_usuario = 'RBB1975249'
-
-        self.driver.get('https://twitter.com/i/flow/login')
-        self.driver.maximize_window()
-
-        WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input"))).click()
-        sleep(1)
-        self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input').send_keys(self.cred_login)
-        sleep(2)
-        self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div').click()
-
         try:
-            WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input"))).click()
+            print('fazendo login no twitter')
+            # self.cred_login = 'rogerio@rbbtrade.com'
+            # self.cred_usuario = 'RBB1975249'
+
+            self.driver.get('https://twitter.com/i/flow/login')
+            self.driver.maximize_window()
+
+            WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input"))).click()
             sleep(1)
-            self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input').send_keys(self.cred_usuario)
+            self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input').send_keys(self.cred_login)
             sleep(2)
-            self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div').click()
+            self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div').click()
 
-        except:
-            pass
+            try:
+                WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input"))).click()
+                sleep(1)
+                self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input').send_keys(self.cred_usuario)
+                sleep(2)
+                self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div').click()
 
-        WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input"))).click()
-        sleep(3)
-        self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input').send_keys(self.cred_senha)
-        sleep(2)
-        self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div/div').click()
+            except:
+                pass
 
-        self.driver.implicitly_wait(10)
-        sleep(10)
+            WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input"))).click()
+            sleep(3)
+            self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input').send_keys(self.cred_senha)
+            sleep(2)
+            self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div/div').click()
+
+            self.driver.implicitly_wait(10)
+            sleep(10)
+
+        except Exception as e:
+            print('erro no login')
+            raise(e)
 
     @time_out(time_out=10, raise_exception=True)
     def search_keyword(self, keyword):
-        print('pesquisando palavra chave')
-        sleep(2)
-        self.search_keyword = keyword
-        self.driver.get('https://twitter.com/search?q='+ self.search_keyword +'&src=typed_query')
-
-    def get_post_links(self, n_posts=20):
-        """
-        Informações importantes para o desenvolvimento do código:
-        class do usuario do post, tempo de publicação ou anuncio: x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h
-        """
-        print('Obtendo links dos posts...')
-        self.post_links = list()
-        n_scroll = 0
-
-        script = f""" 
-                    var results = document.getElementsByClassName('{self.classe}');
-                    return results
-                  """
-        
-        elements = self.driver.execute_script(script)
-
-        while True:
-            for element in elements:
-                try:
-                    href = element.get_attribute('href')
-                    
-                except:
-                    self.driver.execute_script("window.scrollBy(0,1150)")
-                    n_scroll += 1
-                    sleep(2)
-                    continue
-
-                if href not in self.post_links:
-                    self.post_links.append(href)
-
-                else:
-                    n_scroll += 1
-                    
-            self.driver.execute_script("window.scrollBy(0,1150)")
-
-            if len(self.post_links) >= n_posts or n_scroll > 150:
-                break
-
-            else:
-                elements = self.driver.execute_script(script)
-
-    def get_information(self):
-        print('Obtendo informações dos posts...')
-        data_temp = list()
-        data = list()
-
-        text_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[3]/div[1]/div/div[1]/span'
-        usuario_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/div/div/a/div/span'
-
-        for i,link in enumerate(self.post_links):
-            data_temp = list()
-            try:
-                self.driver.get(link)
-                sleep(2)
-
-                data_temp.append(self.driver.find_element(by=By.XPATH, value=usuario_xpath).text)
-
-                try:
-                    data_temp.append(self.driver.find_element(by=By.XPATH, value=text_xpath).text)
-
-                except:
-                    data_temp.append('')
-
-                data_temp.append("https://twitter.com/" + data_temp[0][1:])
-                data_temp.append(link)
-
-                self.driver.get_screenshot_as_file("imgs/"+str(i)+".png")
-                image = self.driver.get_screenshot_as_png()
-                image = psycopg2.Binary(image)
-                data_temp.append(image)
-
-                data.append(data_temp)
-
-
-            except Exception as e:
-                print('erro na hora de extrair informações')
-                print(e)
-
         try:
-            data_hora_atual = datetime.now()
-            data_hora = data_hora_atual.strftime('%m/%d/%Y %H:%M:%S')
+            print('pesquisando palavra chave')
+            sleep(2)
+            if self.driver.current_url != 'https://twitter.com/home':
+                print(self.driver.current_url)
+                raise Exception('não está na pagina inicial')
 
-            self.dataframe = pd.DataFrame(data, columns=['usuario', 'data_publication', 'usuario_link', 'publication_link', 'bytea'])
-            self.dataframe['publication_id'] = [item[-2].split('/')[-1] for item in data]
-            self.dataframe['search_keyword'] = [self.search_keyword] * len(data)
-            self.dataframe['date_search'] = [data_hora] * len(data)
+            self.search_keyword = keyword
+            self.driver.get('https://twitter.com/search?q='+ self.search_keyword +'&src=typed_query')
 
         except Exception as e:
-            print('erro na hora de criar o dataframe')
-            print(e)
+            print('erro na pesquisa da palavra chave')
+            raise(e)
 
-        self.driver.quit()
+    def get_post_links(self, n_posts=20):
+        try:
+            """
+            Informações importantes para o desenvolvimento do código:
+            class do usuario do post, tempo de publicação ou anuncio: x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h
+            """
+            print('Obtendo links dos posts...')
+            self.post_links = list()
+            n_scroll = 0
+
+            script = f""" 
+                        var results = document.getElementsByClassName('{self.classe}');
+                        return results
+                    """
+            
+            elements = self.driver.execute_script(script)
+
+            while True:
+                for element in elements:
+                    try:
+                        href = element.get_attribute('href')
+                        
+                    except:
+                        self.driver.execute_script("window.scrollBy(0,1150)")
+                        n_scroll += 1
+                        sleep(2)
+                        continue
+
+                    if href not in self.post_links:
+                        self.post_links.append(href)
+
+                    else:
+                        n_scroll += 1
+                        
+                self.driver.execute_script("window.scrollBy(0,1150)")
+
+                if len(self.post_links) >= n_posts or n_scroll > 150:
+                    break
+
+                else:
+                    elements = self.driver.execute_script(script)
+
+        except Exception as e:
+            print('erro na hora de extrair links')
+            raise(e)
+
+    def get_information(self):
+        try:
+            print('Obtendo informações dos posts...')
+            data_temp = list()
+            data = list()
+
+            text_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[3]/div[1]/div/div[1]/span'
+            usuario_xpath = '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/section/div/div/div[1]/div/div/article/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/div/div/a/div/span'
+
+            for i,link in enumerate(self.post_links):
+                data_temp = list()
+                try:
+                    self.driver.get(link)
+                    sleep(2)
+
+                    data_temp.append(self.driver.find_element(by=By.XPATH, value=usuario_xpath).text)
+
+                    try:
+                        data_temp.append(self.driver.find_element(by=By.XPATH, value=text_xpath).text)
+
+                    except:
+                        data_temp.append('')
+
+                    data_temp.append("https://twitter.com/" + data_temp[0][1:])
+                    data_temp.append(link)
+
+                    self.driver.get_screenshot_as_file("imgs/"+str(i)+".png")
+                    image = self.driver.get_screenshot_as_png()
+                    image = psycopg2.Binary(image)
+                    data_temp.append(image)
+
+                    data.append(data_temp)
+
+
+                except Exception as e:
+                    print('erro na hora de extrair informações')
+                    raise(e)
+
+            try:
+                data_hora_atual = datetime.now()
+                data_hora = data_hora_atual.strftime('%m/%d/%Y %H:%M:%S')
+
+                self.dataframe = pd.DataFrame(data, columns=['usuario', 'data_publication', 'usuario_link', 'publication_link', 'bytea'])
+                self.dataframe['publication_id'] = [item[-2].split('/')[-1] for item in data]
+                self.dataframe['search_keyword'] = [self.search_keyword] * len(data)
+                self.dataframe['date_search'] = [data_hora] * len(data)
+
+            except Exception as e:
+                print('erro na hora de criar o dataframe')
+                raise(e)
+
+            self.driver.quit()
+        except Exception as e:
+            print('erro na hora de obter informações')
+            raise(e)
 
     def get_data(self):
         return self.dataframe
 
+    @time_out(time_out=10, raise_exception=True)
     def get_class(self):
         print('Obtendo classe para extração de links...')
         i = 1
