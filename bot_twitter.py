@@ -3,12 +3,15 @@ import pandas as pd
 import argparse
 import time
 import logging
+import numpy as np
+import random
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 from time import sleep
 from datetime import datetime
 
@@ -18,11 +21,24 @@ class bot_twitter():
         self.cred_usuario = cred_usuario
         self.cred_login = cred_login
         self.cred_senha = cred_senha
+        
 
         options = webdriver.FirefoxOptions()
         if headless: options.add_argument('--headless')
 
-        self.driver = webdriver.Firefox()
+        # Adding argument to disable the AutomationControlled flag 
+        options.add_argument("--disable-blink-features=AutomationControlled") 
+        options.add_argument('--icognito')
+        
+        # Exclude the collection of enable-automation switches 
+        # options.add_experimental_option("excludeSwitches", ["enable-automation"]) 
+        # options.add_argument("")
+        # Turn-off userAutomationExtension 
+        # options.add_experimental_option("useAutomationExtension", False) 
+
+        self.driver = webdriver.Firefox(options=options)
+        # self.driver.add_cookie({'guest_id_marketing': 'v1%3A170612599419656861', 'guest_id_ads': 'v1%3A170612599419656861', 'personalization_id': '"v1_iYkTa9OtRUSGqZ7RwiFgHg=="', 'guest_id': 'v1%3A170612599419656861'})
+        
         self.actions = ActionChains(self.driver)
 
         sleep(3)
@@ -84,23 +100,36 @@ class bot_twitter():
             # self.cred_usuario = 'RBB1975249'
 
             self.driver.get('https://twitter.com/i/flow/login')
+            # self.driver.get('https://twitter.com/')
+            # self.driver.add_cookie({'name': 'guest_id_marketing', 'value': 'v1%3A170612599419656861'})
+            # 'guest_id_ads': 'v1%3A170612599419656861', 'personalization_id': '"v1_iYkTa9OtRUSGqZ7RwiFgHg=="', 'guest_id': 'v1%3A170612599419656861'}
+            # self.driver.add_cookie({'name': 'guest_id_ads', 'value': 'v1%3A170612599419656861'})
+            # self.driver.add_cookie({'name': 'personalization_id', 'value': '"v1_iYkTa9OtRUSGqZ7RwiFgHg=="'})
+            # self.driver.add_cookie({'name': 'guest_id', 'value': 'v1%3A170612599419656861'})
+            # cookie_file_path = 'cookies-twitter-com2.txt'
+            # cookies = read_cookies_from_file(cookie_file_path)
+            # for cookie in cookies:
+            #     self.driver.add_cookie(cookie)
+            # self.driver.get('https://twitter.com/')
             self.driver.maximize_window()
 
             WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input"))).click()
             sleep(1)
-            self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input').send_keys(self.cred_login)
+            # self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input').send_keys(self.cred_login)
+            self.real_typing_simu('/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input', self.cred_usuario)
             sleep(2)
             self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div').click()
+            sleep(10)
 
-            try:
-                WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input"))).click()
-                sleep(1)
-                self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input').send_keys(self.cred_usuario)
-                sleep(2)
-                self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div').click()
+            # try:
+            #     WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input"))).click()
+            #     sleep(1)
+            #     self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input').send_keys(self.cred_usuario)
+            #     sleep(2)
+            #     self.driver.find_element(by=By.XPATH, value='/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div').click()
 
-            except:
-                pass
+            # except:
+            #     pass
 
             WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input"))).click()
             sleep(3)
@@ -167,7 +196,7 @@ class bot_twitter():
                         
                 self.driver.execute_script("window.scrollBy(0,1150)")
 
-                if len(self.post_links) >= n_posts or n_scroll > 150:
+                if len(self.post_links) >= n_posts or n_scroll > 100:
                     break
 
                 else:
@@ -253,6 +282,23 @@ class bot_twitter():
 
     def get_n_posts(self):
         return len(self.post_links)
+    
+    def real_typing_simu(self, xpath, texto):
+        try:
+            print('Digitando palavra por palavra')
+            for letra in texto:
+                self.driver.find_element(by=By.XPATH, value=xpath).send_keys(letra)
+                rand = random.uniform(0.75, 1.75)
+                sleep(rand)
+                if rand < 1.0:
+                    #apagando letra
+                    self.driver.find_element(by=By.XPATH, value=xpath).send_keys(Keys.BACKSPACE)
+                    sleep(rand)
+                    self.driver.find_element(by=By.XPATH, value=xpath).send_keys(letra)
+
+        except Exception as e:
+            print('erro na hora de digitar')
+            raise(e)
 
 def execute_sql(sql, data = None, fetch=False):
     try:
@@ -341,9 +387,9 @@ def verificando_busca_avulsa():
 
         set_status_pesquisa_avulsa(id)
 
-def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword, filtro, cred_usuario, cred_login, cred_senha):
+def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword, filtro, cred_login, cred_usuario, cred_senha):
     print('executando busca...')
-    bot = bot_twitter(cred_login, cred_usuario, cred_senha)
+    bot = bot_twitter(cred_login, cred_usuario, cred_senha, headless=True)
     bot.login()
 
     sleep(5)
@@ -414,7 +460,23 @@ def inserir_db(data, id_pesquisa_avulsa, n_posts):
         
     print('Dados inseridos com sucesso!!')
 
-   
+def read_cookies_from_file(file_path):
+    cookies = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            parts = line.strip().split('\t')
+            if len(parts) == 7:
+                domain, _, path, secure, expiry, name, value = parts
+                cookie = {
+                    'domain': domain,
+                    'path': path,
+                    'secure': secure == 'TRUE',
+                    'expiry': int(expiry) if expiry.isdigit() else None,
+                    'name': name,
+                    'value': value
+                }
+                cookies.append(cookie)
+    return cookies
 
 if __name__ == '__main__':
     global precessando 
