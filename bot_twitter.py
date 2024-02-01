@@ -1,19 +1,21 @@
-import psycopg2
-import pandas as pd
-import argparse
 import time
-import logging
-import numpy as np
 import random
+import logging
+import psycopg2
+import argparse
+import numpy as np
+import pandas as pd
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait 
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 from time import sleep
 from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait 
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 class bot_twitter():
@@ -23,21 +25,14 @@ class bot_twitter():
         self.cred_senha = cred_senha
         
 
-        options = webdriver.FirefoxOptions()
+        options = webdriver.ChromeOptions()
         if headless: options.add_argument('--headless')
 
         # Adding argument to disable the AutomationControlled flag 
         options.add_argument("--disable-blink-features=AutomationControlled") 
         options.add_argument('--icognito')
-        
-        # Exclude the collection of enable-automation switches 
-        # options.add_experimental_option("excludeSwitches", ["enable-automation"]) 
-        # options.add_argument("")
-        # Turn-off userAutomationExtension 
-        # options.add_experimental_option("useAutomationExtension", False) 
 
-        self.driver = webdriver.Firefox(options=options)
-        # self.driver.add_cookie({'guest_id_marketing': 'v1%3A170612599419656861', 'guest_id_ads': 'v1%3A170612599419656861', 'personalization_id': '"v1_iYkTa9OtRUSGqZ7RwiFgHg=="', 'guest_id': 'v1%3A170612599419656861'})
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         
         self.actions = ActionChains(self.driver)
 

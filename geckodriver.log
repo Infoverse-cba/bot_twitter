@@ -4461,3 +4461,20 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
 1706744179706	Marionette	INFO	Stopped listening on port 55195
 Dynamically enable window occlusion 1
+1706800225381	geckodriver	INFO	Listening on 127.0.0.1:54952
+1706800228481	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileA3vVYm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706800228909	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706800229030	Marionette	INFO	Listening on port 54963
+WebDriver BiDi listening on ws://127.0.0.1:54953
+Read port: 54963
+1706800229222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54953/devtools/browser/c26d1c57-d78d-4b4b-847c-2f739dc02250
+1706800258939	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1706800414747	Marionette	INFO	Stopped listening on port 54963
+Dynamically enable window occlusion 1
