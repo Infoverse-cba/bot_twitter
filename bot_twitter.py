@@ -98,6 +98,7 @@ class bot_twitter():
             print('fazendo login no twitter')
             # self.cred_login = 'rogerio@rbbtrade.com'
             # self.cred_usuario = 'RBB1975249'
+            # print(self.cred_senha)
 
             self.driver.get('https://twitter.com/i/flow/login')
             # self.driver.get('https://twitter.com/')
@@ -145,7 +146,7 @@ class bot_twitter():
             raise(e)
 
     @time_out(time_out=10, raise_exception=True)
-    def search_keyword(self, keyword):
+    def search_keyword(self, keyword, id):
         try:
             print('pesquisando palavra chave')
             sleep(2)
@@ -156,10 +157,36 @@ class bot_twitter():
             self.search_keyword = keyword
             self.driver.get('https://twitter.com/search?q='+ self.search_keyword +'&src=typed_query')
 
+            sleep(5)
+
+            if self.is_empty_search():
+                data_hora_atual = datetime.now()
+                data_hora = data_hora_atual.strftime('%m/%d/%Y %H:%M:%S')
+                data = list()
+                data_temp = ['', '123456', '', '']
+                image = self.driver.get_screenshot_as_png()
+                image = psycopg2.Binary(image)
+                data_temp.append(image)
+                data.append(data_temp)
+                self.driver.get_screenshot_as_file("imgs/erro.png")
+                self.dataframe = pd.DataFrame(data, columns=['usuario', 'data_publication', 'usuario_link', 'publication_link', 'bytea'])
+                data_hora2 = data_hora.replace(" ", "")
+                self.dataframe['publication_id'] = [data_hora2]
+                self.dataframe['search_keyword'] = [self.search_keyword] * len(data)
+                self.dataframe['date_search'] = [data_hora]
+                print(self.dataframe)
+                self.driver.quit()
+                inserir_db(self.dataframe, id, 0)
+        
+                return False
+            
+            else:
+                return True
+
         except Exception as e:
             print('erro na pesquisa da palavra chave')
             raise(e)
-
+        
     def get_post_links(self, n_posts=20):
         try:
             """
@@ -208,6 +235,7 @@ class bot_twitter():
 
     def get_information(self):
         try:
+
             print('Obtendo informações dos posts...')
             data_temp = list()
             data = list()
@@ -247,6 +275,7 @@ class bot_twitter():
             try:
                 data_hora_atual = datetime.now()
                 data_hora = data_hora_atual.strftime('%m/%d/%Y %H:%M:%S')
+                
 
                 self.dataframe = pd.DataFrame(data, columns=['usuario', 'data_publication', 'usuario_link', 'publication_link', 'bytea'])
                 self.dataframe['publication_id'] = [item[-2].split('/')[-1] for item in data]
@@ -299,6 +328,20 @@ class bot_twitter():
         except Exception as e:
             print('erro na hora de digitar')
             raise(e)
+
+    def is_empty_search(self):
+        try:
+            print('verificando se a pesquisa está vazia')
+            text = self.driver.find_element(by=By.XPATH, value='//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/div/div/div[1]/span').text
+
+            if text == 'Nenhum resultado para "' + self.search_keyword + '"' or text == 'No results for "' + self.search_keyword + '"':
+                return True
+            
+            else:
+                return False
+
+        except:
+            return False
 
 def execute_sql(sql, data = None, fetch=False):
     try:
@@ -389,18 +432,23 @@ def verificando_busca_avulsa():
 
 def executando_busca(id, id_usuario, id_credencial, date_search, status, keyword, filtro, cred_login, cred_usuario, cred_senha):
     print('executando busca...')
-    bot = bot_twitter(cred_login, cred_usuario, cred_senha, headless=True)
+    bot = bot_twitter(cred_login, cred_usuario, cred_senha, headless=False)
     bot.login()
 
     sleep(5)
 
-    bot.search_keyword(keyword)
-    bot.get_class()
-    bot.get_post_links()
-    bot.get_information()
-    n_posts = bot.get_n_posts()
+    if bot.search_keyword(keyword, id):
 
-    inserir_db(bot.get_data(), id, n_posts)
+        bot.get_class()
+        bot.get_post_links()
+        bot.get_information()
+        n_posts = bot.get_n_posts()
+
+        inserir_db(bot.get_data(), id, n_posts)
+    
+    else:
+        set_status_pesquisa_avulsa(id)
+        print('Pesquisa vazia')
         
 def inserir_db(data, id_pesquisa_avulsa, n_posts):
     print('Inserindo no banco de dados')

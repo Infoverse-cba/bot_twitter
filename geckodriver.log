@@ -3729,3 +3729,735 @@ m@https://abs.twimg.com/responsive-web/client-web/vendor.7a1c28ba.js:98:9675
 onTimeUpdate@https://abs.twimg.com/responsive-web/client-web/shared~loaders.video.PlayerBase~bundle.TwitterArticles~bundle.ComposeMedia~bundle.TV~loader.MediaPreviewVideo.d54ede3a.js:1:35535
 
 Dynamically enable window occlusion 1
+1706186953435	geckodriver	INFO	Listening on 127.0.0.1:50673
+1706186956500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile9JN2zT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706186956832	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706186956926	Marionette	INFO	Listening on port 50683
+WebDriver BiDi listening on ws://127.0.0.1:50674
+Read port: 50683
+1706186957105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50674/devtools/browser/8d4a1512-fe99-4940-9597-3602d1086948
+1706186986856	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706187905727	Marionette	INFO	Stopped listening on port 50683
+Dynamically enable window occlusion 1
+1706294614287	geckodriver	INFO	Listening on 127.0.0.1:60749
+1706294617373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilep23wBm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706294617789	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706294617884	Marionette	INFO	Listening on port 60770
+WebDriver BiDi listening on ws://127.0.0.1:60750
+Read port: 60770
+1706294618063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60750/devtools/browser/ee59eddb-1fe7-4034-b7eb-0f9188c8245b
+1706294647828	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1706295400891	Marionette	INFO	Stopped listening on port 60770
+Dynamically enable window occlusion 1
+eatures=AutomationControl ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileIpWCyD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706294761121	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706294761216	Marionette	INFO	Listening on port 60911
+WebDriver BiDi listening on ws://127.0.0.1:60903
+Read port: 60911
+1706294761370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60903/devtools/browser/00eaabc0-9cc6-4960-a800-9032ba5813b0
+1706294791174	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.116f065a.js, line 1: Script terminated by timeout at:
+845907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.116f065a.js:1:2461326
+
+1706295212638	Marionette	INFO	Stopped listening on port 60911
+Dynamically enable window occlusion 1
+1706559982634	geckodriver	INFO	Listening on 127.0.0.1:62574
+1706559985702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=Auto ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilehKpFcX"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706559986007	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706559986067	Marionette	INFO	Listening on port 62583
+WebDriver BiDi listening on ws://127.0.0.1:62575
+Read port: 62583
+1706559986227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62575/devtools/browser/79268ce9-c44f-49c1-9bb1-766fc73e0737
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706560016146	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofiletF6UXs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706560100247	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706560100348	Marionette	INFO	Listening on port 62695
+WebDriver BiDi listening on ws://127.0.0.1:62685
+Read port: 62695
+1706560100512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62685/devtools/browser/de4a9fce-ed01-4daa-9765-65ea8b0e5a06
+1706560130286	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js, line 1: Script terminated by timeout at:
+845907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js:1:2430648
+
+1706560526204	Marionette	INFO	Stopped listening on port 62695
+Dynamically enable window occlusion 1
+1706560545863	geckodriver	INFO	Listening on 127.0.0.1:63451
+1706560548926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileKkCQW3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706560549337	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706560549439	Marionette	INFO	Listening on port 63459
+WebDriver BiDi listening on ws://127.0.0.1:63452
+Read port: 63459
+1706560549618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63452/devtools/browser/46b309ce-66e2-438d-8b6d-1250073fa958
+1706560579384	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706560596273	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706560691861	Marionette	INFO	Stopped listening on port 63459
+Dynamically enable window occlusion 1
+1706560748090	geckodriver	INFO	Listening on 127.0.0.1:63700
+1706560751109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileuikkFg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706560751412	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706560751541	Marionette	INFO	Listening on port 63711
+WebDriver BiDi listening on ws://127.0.0.1:63701
+Read port: 63711
+1706560751718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63701/devtools/browser/dddbb2e0-9d39-412e-a363-a9c3206f12ec
+1706560781450	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1706561955611	geckodriver	INFO	Listening on 127.0.0.1:64374
+1706561958644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileG4ygeZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706561958973	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706561959070	Marionette	INFO	Listening on port 64384
+WebDriver BiDi listening on ws://127.0.0.1:64375
+Read port: 64384
+1706561959234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64375/devtools/browser/a223dbc0-5245-4bb2-9ee4-386076521e4a
+1706561989008	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706562119262	Marionette	INFO	Stopped listening on port 64384
+Dynamically enable window occlusion 1
+1706562170388	geckodriver	INFO	Listening on 127.0.0.1:64654
+1706562173442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilejKOp7b"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706562173745	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706562173841	Marionette	INFO	Listening on port 64664
+WebDriver BiDi listening on ws://127.0.0.1:64655
+Read port: 64664
+1706562173981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64655/devtools/browser/eeea7bfa-9e15-47b9-8553-a9cf7ee0586c
+1706562203777	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706562373783	Marionette	INFO	Stopped listening on port 64664
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/ondemand.video.PlayerHls1.5.94d09d4a.js, line 1: Script terminated by timeout at:
+get@https://abs.twimg.com/responsive-web/client-web/ondemand.video.PlayerHls1.5.94d09d4a.js:1:377171
+get@https://abs.twimg.com/responsive-web/client-web/ondemand.video.PlayerHls1.5.94d09d4a.js:1:413858
+82761/t/this._abandonRulesCheck@https://abs.twimg.com/responsive-web/client-web/ondemand.video.PlayerHls1.5.94d09d4a.js:1:99414
+
+Dynamically enable window occlusion 1
+1706562446054	geckodriver	INFO	Listening on 127.0.0.1:64981
+1706562449099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilemxKu0w"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706562449475	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706562449578	Marionette	INFO	Listening on port 64989
+WebDriver BiDi listening on ws://127.0.0.1:64982
+Read port: 64989
+1706562449752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64982/devtools/browser/39473f71-e80d-42da-9252-b44ef3f8e8d0
+1706562479545	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Exiting due to channel error.
+Exiting due to channel error.
+1706563326075	geckodriver	INFO	Listening on 127.0.0.1:49908
+1706563329096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilePMomxy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706563329395	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706563329495	Marionette	INFO	Listening on port 49918
+WebDriver BiDi listening on ws://127.0.0.1:49909
+Read port: 49918
+1706563329565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49909/devtools/browser/681a3a39-225d-4248-a764-f74031c5bac1
+1706563359417	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706563440507	Marionette	INFO	Stopped listening on port 49918
+Dynamically enable window occlusion 1
+1706564820398	geckodriver	INFO	Listening on 127.0.0.1:51631
+1706564823442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileKu7bwe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706564823758	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706564823863	Marionette	INFO	Listening on port 51642
+WebDriver BiDi listening on ws://127.0.0.1:51632
+Read port: 51642
+1706564824037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51632/devtools/browser/45292036-38bf-4800-9350-b9a9a36dbeaa
+1706564853791	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js, line 1: Script terminated by timeout at:
+845907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js:1:2430648
+
+1706565164355	Marionette	INFO	Stopped listening on port 51642
+Dynamically enable window occlusion 1
+eUybEku"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706565156052	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706565156154	Marionette	INFO	Listening on port 52051
+WebDriver BiDi listening on ws://127.0.0.1:52041
+Read port: 52051
+1706565156287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52041/devtools/browser/6d1cb3cc-d89c-40cc-93cd-408c1173cdb2
+1706565186108	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js, line 1: Script terminated by timeout at:
+845907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js:1:2430648
+
+1706565422122	Marionette	INFO	Stopped listening on port 52051
+Dynamically enable window occlusion 1
+1706565423735	geckodriver	INFO	Listening on 127.0.0.1:52908
+1706565426767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofiletR1g1j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706565427128	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706565427230	Marionette	INFO	Listening on port 52920
+WebDriver BiDi listening on ws://127.0.0.1:52909
+Read port: 52920
+1706565427393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52909/devtools/browser/148a5e6f-b535-4584-9916-38b4eb29babd
+1706565457163	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706565508927	Marionette	INFO	Stopped listening on port 52920
+Dynamically enable window occlusion 1
+1706565702890	geckodriver	INFO	Listening on 127.0.0.1:53380
+1706565705960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileKIcLIW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706565706285	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706565706385	Marionette	INFO	Listening on port 53392
+WebDriver BiDi listening on ws://127.0.0.1:53381
+Read port: 53392
+1706565706547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53381/devtools/browser/af09e435-b08a-485f-a7d7-fd830aab7694
+1706565736311	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706565788821	Marionette	INFO	Stopped listening on port 53392
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js, line 1: Script terminated by timeout at:
+935094/b/this._pollForHoverOut/this._hoverOutPollTimer<@https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js:1:2383163
+
+Dynamically enable window occlusion 1
+1706565989357	geckodriver	INFO	Listening on 127.0.0.1:53852
+1706565992402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilept18Ja"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706565992714	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706565992806	Marionette	INFO	Listening on port 53863
+WebDriver BiDi listening on ws://127.0.0.1:53853
+Read port: 53863
+1706565992984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53853/devtools/browser/21480483-1a0c-4bc1-a408-20775e5e8330
+1706566022740	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706566074468	Marionette	INFO	Stopped listening on port 53863
+Dynamically enable window occlusion 1
+1706566084356	geckodriver	INFO	Listening on 127.0.0.1:54008
+1706566087401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile3lXEpT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706566087704	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706566087796	Marionette	INFO	Listening on port 54018
+WebDriver BiDi listening on ws://127.0.0.1:54009
+Read port: 54018
+1706566087926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54009/devtools/browser/831f1fc2-49c0-45ba-ab6b-9006b4dfe050
+1706566117729	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706566161245	Marionette	INFO	Stopped listening on port 54018
+Dynamically enable window occlusion 1
+1706566170117	geckodriver	INFO	Listening on 127.0.0.1:54169
+1706566173146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile6rDluS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706566173502	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706566173608	Marionette	INFO	Listening on port 54179
+WebDriver BiDi listening on ws://127.0.0.1:54170
+Read port: 54179
+1706566173780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54170/devtools/browser/b0eb9da3-68dc-4dc0-bdbb-8e7f6132550e
+1706566203526	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706566249101	Marionette	INFO	Stopped listening on port 54179
+Dynamically enable window occlusion 1
+1706566697943	geckodriver	INFO	Listening on 127.0.0.1:54751
+1706566700983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileituu2W"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706566701318	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706566701417	Marionette	INFO	Listening on port 54762
+WebDriver BiDi listening on ws://127.0.0.1:54752
+Read port: 54762
+1706566701652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54752/devtools/browser/07479d94-74fb-42ad-8950-d338d84fc92a
+Exiting due to channel error.
+Exiting due to channel error.
+1706566728848	geckodriver	INFO	Listening on 127.0.0.1:54806
+1706566731898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileMjbyOB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706566732236	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706566732356	Marionette	INFO	Listening on port 54818
+WebDriver BiDi listening on ws://127.0.0.1:54807
+Read port: 54818
+1706566732545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54807/devtools/browser/09f3bdbd-2bc6-48bb-8f70-06313ff069b1
+1706566762280	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706566801848	Marionette	INFO	Stopped listening on port 54818
+Dynamically enable window occlusion 1
+1706566818508	geckodriver	INFO	Listening on 127.0.0.1:54957
+1706566821544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilewVIaMm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706566821862	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706566821954	Marionette	INFO	Listening on port 54967
+WebDriver BiDi listening on ws://127.0.0.1:54958
+Read port: 54967
+1706566822114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54958/devtools/browser/0affbc07-f9a5-4231-bd11-d01a3aaa6d62
+1706566851894	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706566893683	Marionette	INFO	Stopped listening on port 54967
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js, line 1: Script terminated by timeout at:
+935094/b/this._pollForHoverOut/this._hoverOutPollTimer<@https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js:1:2383163
+
+Dynamically enable window occlusion 1
+1706567428986	geckodriver	INFO	Listening on 127.0.0.1:56654
+1706567432029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilefBaQNC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706567432353	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706567432456	Marionette	INFO	Listening on port 56685
+WebDriver BiDi listening on ws://127.0.0.1:56655
+Read port: 56685
+1706567432615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56655/devtools/browser/0d6715ee-78bc-4e8e-a802-d7e9e719dbeb
+1706567462384	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1706567506273	Marionette	INFO	Stopped listening on port 56685
+Dynamically enable window occlusion 1
+1706567877771	geckodriver	INFO	Listening on 127.0.0.1:57667
+1706567880812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile6Bkvvr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706567881157	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706567881269	Marionette	INFO	Listening on port 57678
+WebDriver BiDi listening on ws://127.0.0.1:57668
+Read port: 57678
+1706567881440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57668/devtools/browser/82e33bf1-3a31-47d2-b848-1d408483210d
+1706567911195	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1706567956220	Marionette	INFO	Stopped listening on port 57678
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js, line 1: Script terminated by timeout at:
+291059/</</</<@https://abs.twimg.com/responsive-web/client-web/main.4286f85a.js:1:1199616
+
+Dynamically enable window occlusion 1
+1706638473616	geckodriver	INFO	Listening on 127.0.0.1:57905
+1706638476737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilewkSSIv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706638477133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706638477234	Marionette	INFO	Listening on port 57914
+WebDriver BiDi listening on ws://127.0.0.1:57906
+Read port: 57914
+1706638477401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57906/devtools/browser/68c588eb-cb0e-4bd3-8169-f200ba364a36
+1706638507190	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706638555055	Marionette	INFO	Stopped listening on port 57914
+Dynamically enable window occlusion 1
+1706638566685	geckodriver	INFO	Listening on 127.0.0.1:58031
+1706638569756	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileHYntxq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706638570071	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706638570182	Marionette	INFO	Listening on port 58039
+WebDriver BiDi listening on ws://127.0.0.1:58032
+Read port: 58039
+1706638570346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58032/devtools/browser/0f3f3ae0-2bac-4cfc-a0d5-1d330a0943eb
+1706638600107	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706638645168	Marionette	INFO	Stopped listening on port 58039
+Dynamically enable window occlusion 1
+1706639033217	geckodriver	INFO	Listening on 127.0.0.1:58262
+1706639036284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileMhiOKR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706639036628	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706639036722	Marionette	INFO	Listening on port 58277
+WebDriver BiDi listening on ws://127.0.0.1:58263
+Read port: 58277
+1706639036877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58263/devtools/browser/ba412e80-7e52-4767-9897-0978b23b201c
+1706639066672	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4ab9ec2a.js, line 1: Script terminated by timeout at:
+845907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.4ab9ec2a.js:1:2430865
+
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: Script terminated by timeout at:
+lr@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:143921
+Ke@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:144511
+hn/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:208919
+hn@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:207937
+vn/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:209726
+vn@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:209686
+t/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:227084
+h@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:94667
+7395/o/S/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:96005
+7395/o/x/</<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:95030
+n@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105360
+c@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105564
+o/</<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105623
+o/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105503
+po@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:227216
+t/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:232236
+h@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:94667
+7395/o/S/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:96005
+7395/o/x/</<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:95030
+n@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105360
+c@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105564
+o/</<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105623
+o/<@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:105503
+@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:232516
+2265/c.prototype.emit@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:12653
+t/this.messageListener@https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js:1:112298
+
+1706639103113	Marionette	INFO	Stopped listening on port 58277
+Dynamically enable window occlusion 1
+1706639113144	geckodriver	INFO	Listening on 127.0.0.1:58373
+1706639116230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilePdGaOP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706639116572	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706639116671	Marionette	INFO	Listening on port 58381
+WebDriver BiDi listening on ws://127.0.0.1:58374
+Read port: 58381
+1706639116833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58374/devtools/browser/9f522a13-5bfe-4c6c-9cbb-2a5258a9948a
+1706639146617	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706639252675	Marionette	INFO	Stopped listening on port 58381
+Dynamically enable window occlusion 1
+1706639271545	geckodriver	INFO	Listening on 127.0.0.1:58493
+1706639274618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile3YuAZ8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706639274964	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706639275059	Marionette	INFO	Listening on port 58501
+WebDriver BiDi listening on ws://127.0.0.1:58494
+Read port: 58501
+1706639275211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58494/devtools/browser/c6695fc7-9d55-46b0-931d-e0f2f4f92714
+1706639304988	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4ab9ec2a.js, line 1: Script terminated by timeout at:
+845907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.4ab9ec2a.js:1:2430753
+
+1706639464240	Marionette	INFO	Stopped listening on port 58501
+Dynamically enable window occlusion 1
+1706640787582	geckodriver	INFO	Listening on 127.0.0.1:58882
+1706640790657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilegW87zk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706640791061	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706640791167	Marionette	INFO	Listening on port 58890
+WebDriver BiDi listening on ws://127.0.0.1:58883
+Read port: 58890
+1706640791342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58883/devtools/browser/4c4672d5-e019-47d4-9359-fa278978e5c0
+1706640821089	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.4ab9ec2a.js, line 1: Error: ApiError: https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference HTTP-0 codes:[1004]
+1706640989007	Marionette	INFO	Stopped listening on port 58890
+Dynamically enable window occlusion 1
+1706641111257	geckodriver	INFO	Listening on 127.0.0.1:59166
+1706641114287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilexWK0Cp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706641114636	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706641114729	Marionette	INFO	Listening on port 59174
+WebDriver BiDi listening on ws://127.0.0.1:59167
+Read port: 59174
+1706641114894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59167/devtools/browser/cfce6118-9f54-476a-9772-78275a5c0ffb
+1706641144671	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706641177587	Marionette	INFO	Stopped listening on port 59174
+Dynamically enable window occlusion 1
+1706641189118	geckodriver	INFO	Listening on 127.0.0.1:59267
+1706641192146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilezWNWzv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706641192526	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706641192659	Marionette	INFO	Listening on port 59275
+WebDriver BiDi listening on ws://127.0.0.1:59268
+Read port: 59275
+1706641192888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59268/devtools/browser/976806c6-543c-4269-a59b-a697987f1e35
+1706641222573	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706641411074	Marionette	INFO	Stopped listening on port 59275
+Dynamically enable window occlusion 1
+1706641468111	geckodriver	INFO	Listening on 127.0.0.1:59491
+1706641471145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile4W3rAe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706641471455	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706641471558	Marionette	INFO	Listening on port 59499
+WebDriver BiDi listening on ws://127.0.0.1:59492
+Read port: 59499
+1706641471724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59492/devtools/browser/5d8a1aa3-11be-4a15-9db2-536b9d1f3e39
+1706641501528	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706641550380	Marionette	INFO	Stopped listening on port 59499
+Dynamically enable window occlusion 1
+1706641561987	geckodriver	INFO	Listening on 127.0.0.1:59587
+1706641565018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofile9AAcw7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706641565374	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706641565484	Marionette	INFO	Listening on port 59595
+WebDriver BiDi listening on ws://127.0.0.1:59588
+Read port: 59595
+1706641565651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59588/devtools/browser/c324bbd8-cbd8-4dda-b536-381b9ca9304e
+1706641595406	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706641798998	Marionette	INFO	Stopped listening on port 59595
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/ondemand.video.PlayerHls1.5.94d09d4a.js, line 1: Script terminated by timeout at:
+82761/e.tick@https://abs.twimg.com/responsive-web/client-web/ondemand.video.PlayerHls1.5.94d09d4a.js:1:111283
+
+Dynamically enable window occlusion 1
+1706643176566	geckodriver	INFO	Listening on 127.0.0.1:61207
+1706643179607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileN0GMZd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706643179937	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706643180094	Marionette	INFO	Listening on port 61216
+WebDriver BiDi listening on ws://127.0.0.1:61208
+Read port: 61216
+1706643180258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61208/devtools/browser/a6886bd9-9a65-4c96-8a59-af8c48c1236c
+1706643210005	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client-api.arkoselabs.com/v2/2.3.4/enforcement.c70df15cb97792b18c2f4978b68954a0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.4ab9ec2a.js, line 1: Script terminated by timeout at:
+845907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.4ab9ec2a.js:1:2430753
+
+1706645373495	Marionette	INFO	Stopped listening on port 61216
+Dynamically enable window occlusion 1
+1706645385393	geckodriver	INFO	Listening on 127.0.0.1:61983
+1706645388447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofilehKuQoZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706645388795	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706645388897	Marionette	INFO	Listening on port 61991
+WebDriver BiDi listening on ws://127.0.0.1:61984
+Read port: 61991
+1706645389071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61984/devtools/browser/cda30898-4a50-4e96-85f7-60143642e6d0
+1706645418828	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706645463695	Marionette	INFO	Stopped listening on port 61991
+Dynamically enable window occlusion 1
+1706743925766	geckodriver	INFO	Listening on 127.0.0.1:55185
+1706743928869	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vitor\\AppData\\Local\\Temp\\rust_mozprofileaMArBa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706743929182	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+console.error: "Warning: unrecognized command line flag" "-icognito"
+1706743929272	Marionette	INFO	Listening on port 55195
+WebDriver BiDi listening on ws://127.0.0.1:55186
+Read port: 55195
+1706743929323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55186/devtools/browser/9d4ffa42-936f-456f-85cb-40b0d23fab5d
+1706743959227	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706744179706	Marionette	INFO	Stopped listening on port 55195
+Dynamically enable window occlusion 1
